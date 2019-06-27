@@ -11,10 +11,6 @@
         font-family: Arial, Helvetica, sans-serif;
     }
 
-    .xivicon {
-        font-family: xivicon !important;
-    }
-
     ul {
         display: flex;
         flex-wrap: wrap;
@@ -34,25 +30,25 @@
         color: #444;
         border-radius: 3px;
     }
-    ul li icon {
+    ul li i {
         display: block;
         font-size: 50px;
     }
 
     @font-face {
-        font-family: 'xivicon';
-        src: url('FFXIVAppIcons.eot');
-        src: url('FFXIVAppIcons.eot?#iefix') format('embedded-opentype'),
-             url('FFXIVAppIcons.woff') format('woff'),
-             url('FFXIVAppIcons.ttf') format('truetype'),
-             url('FFXIVAppIcons.svg#FFXIVAppIcons') format('svg');
+        font-family: 'xivicons';
+        src: url('./FFXIVAppIcons.eot');
+        src: url('./FFXIVAppIcons.eot?#iefix') format('embedded-opentype'),
+        url('./FFXIVAppIcons.woff') format('woff'),
+        url('./FFXIVAppIcons.ttf') format('truetype'),
+        url('./FFXIVAppIcons.svg#FFXIVAppIcons') format('svg');
         font-weight: normal;
         font-style: normal;
     }
 
-    [class*='icon-']:before{
+    [class*='xiv-']:before{
         display: inline-block;
-        font-family: 'xivicon';
+        font-family: 'xivicons';
         font-style: normal;
         font-weight: normal;
         line-height: 1;
@@ -60,284 +56,284 @@
         -moz-osx-font-smoothing: grayscale
     }
 
-    .icon-app_address:before{content:'\e010';}
-.icon-app_friend:before{content:'\e020';}
-.icon-app_fc:before{content:'\e021';}
-.icon-app_ls:before{content:'\e022';}
-.icon-app_favorite:before{content:'\e030';}
-.icon-app_favorite_list:before{content:'\e031';}
-.icon-app_group:before{content:'\e050';}
-.icon-app_group_add:before{content:'\e052';}
-.icon-app_talk:before{content:'\e060';}
-.icon-app_character:before{content:'\e070';}
-.icon-app_character_add:before{content:'\e072';}
-.icon-app_character_info:before{content:'\e073';}
-.icon-app_mobile:before{content:'\e074';}
-.icon-CrossWorld:before{content:'\e075';}
-.icon-FFXIVMeteo:before{content:'\e076';}
-.icon-ViewMove:before{content:'\e077';}
-.icon-app_world_home:before{content:'\e078';}
-.icon-app_world_wanderer:before{content:'\e079';}
-.icon-app_block:before{content:'\e080';}
-.icon-app_block_list:before{content:'\e081';}
-.icon-app_black:before{content:'\e090';}
-.icon-app_black_list:before{content:'\e091';}
-.icon-NaviLeft:before{content:'\e100';}
-.icon-NaviRight:before{content:'\e101';}
-.icon-NaviUp:before{content:'\e102';}
-.icon-NaviBottom:before{content:'\e103';}
-.icon-NaviArrowLeft:before{content:'\e110';}
-.icon-NaviArrowRight:before{content:'\e111';}
-.icon-NavigationClose:before{content:'\e120';}
-.icon-Add:before{content:'\e121';}
-.icon-app_action_block_open:before{content:'\e122';}
-.icon-app_action_block_close:before{content:'\e123';}
-.icon-app_status_online:before{content:'\e150';}
-.icon-app_status_contents:before{content:'\e151';}
-.icon-app_status_loading:before{content:'\e152';}
-.icon-NaviMenu:before{content:'\e200';}
-.icon-app_navi_drawer:before{content:'\e201';}
-.icon-NaviSearch:before{content:'\e210';}
-.icon-NaviInputClear:before{content:'\e211';}
-.icon-app_drawer_setting:before{content:'\e220';}
-.icon-DrawerCustom:before{content:'\e221';}
-.icon-DrawerDelete:before{content:'\e230';}
-.icon-DrawerExit:before{content:'\e231';}
-.icon-ViewRefresh:before{content:'\e240';}
-.icon-ViewLoad:before{content:'\e241';}
-.icon-app_view_list:before{content:'\e250';}
-.icon-app_view_grid:before{content:'\e251';}
-.icon-ViewDetail:before{content:'\e252';}
-.icon-app_drawer_service:before{content:'\e261';}
-.icon-app_drawer_news:before{content:'\e262';}
-.icon-app_drawer_guide:before{content:'\e263';}
-.icon-app_drawer_qa:before{content:'\e264';}
-.icon-app_drawer_support:before{content:'\e265';}
-.icon-app_drawer_edb:before{content:'\e266';}
-.icon-app_drawer_game_help:before{content:'\e267';}
-.icon-app_notification_topics:before{content:'\e271';}
-.icon-app_notification_notices:before{content:'\e272';}
-.icon-app_notification_maintenance:before{content:'\e273';}
-.icon-app_notification_updates:before{content:'\e274';}
-.icon-app_notification_status:before{content:'\e275';}
-.icon-Chat:before{content:'\e300';}
-.icon-app_chat_bg:before{content:'\e303';}
-.icon-app_chat_bg_trim:before{content:'\e304';}
-.icon-app_chat_photo:before{content:'\e305';}
-.icon-MessageSend:before{content:'\e310';}
-.icon-app_chat_stamp:before{content:'\e311';}
-.icon-ChatReadOk:before{content:'\e320';}
-.icon-ChatMute:before{content:'\e321';}
-.icon-ChatQuote:before{content:'\e322';}
-.icon-ChatReadHidden:before{content:'\e323';}
-.icon-ChatDeleted:before{content:'\e324';}
-.icon-Schedule:before{content:'\e400';}
-.icon-ScheduleAdd:before{content:'\e402';}
-.icon-ScheduleCancel:before{content:'\e403';}
-.icon-ScheduleTime:before{content:'\e410';}
-.icon-ScheduleDetails:before{content:'\e411';}
-.icon-ScheduleMember:before{content:'\e412';}
-.icon-ScheduleHistory:before{content:'\e413';}
-.icon-ScheduleShare:before{content:'\e414';}
-.icon-Leader:before{content:'\e415';}
-.icon-NotificationOn:before{content:'\e450';}
-.icon-NotificationOff:before{content:'\e451';}
-.icon-ScheduleAlerm:before{content:'\e452';}
-.icon-CheckBoxOff:before{content:'\e500';}
-.icon-CheckBoxOn:before{content:'\e501';}
-.icon-CheckBoxClear:before{content:'\e503';}
-.icon-RadioButtonOff:before{content:'\e505';}
-.icon-RadioButtonOn:before{content:'\e506';}
-.icon-FormEdit:before{content:'\e510';}
-.icon-CopyPaste:before{content:'\e520';}
-.icon-ItemBuyBack:before{content:'\e601';}
-.icon-Market:before{content:'\e700';}
-.icon-MarketLimit:before{content:'\e702';}
-.icon-MarketPurchase:before{content:'\e703';}
-.icon-app_market_exhibit:before{content:'\e704';}
-.icon-PaymentCoin:before{content:'\e800';}
-.icon-PaymentBuy:before{content:'\e801';}
-.icon-app_payment_symbol:before{content:'\e802';}
-.icon-app_home_menu_inventory:before{content:'\e844';}
-.icon-app_home_menu_market_exhibit:before{content:'\e845';}
-.icon-app_home_menu_market_purchase:before{content:'\e846';}
-.icon-app_home_command_ok:before{content:'\e851';}
-.icon-app_home_command_ng:before{content:'\e852';}
-.icon-app_home_command_limit:before{content:'\e853';}
-.icon-app_home_command_view:before{content:'\e854';}
-.icon-SymbolAlert:before{content:'\e900';}
-.icon-SymbolQuestion:before{content:'\e901';}
-.icon-SymbolCheck:before{content:'\e902';}
-.icon-SymbolCross:before{content:'\e903';}
-.icon-SymbolMail:before{content:'\e904';}
-.icon-SymbolLock:before{content:'\e905';}
-.icon-ExternalLink:before{content:'\e906';}
-.icon-SquareBoxAlert:before{content:'\e910';}
-.icon-SquareBoxQuestion:before{content:'\e911';}
-.icon-SquareBoxCheck:before{content:'\e912';}
-.icon-SquareBoxCross:before{content:'\e913';}
-.icon-TriangleBoxAlert:before{content:'\e919';}
-.icon-SquareFrameCheck:before{content:'\e922';}
-.icon-SymbolInformation:before{content:'\e930';}
-.icon-app_symbol_info_circle:before{content:'\e931';}
-.icon-CircleCheck:before{content:'\e932';}
-.icon-SymbolMamet:before{content:'\e951';}
-.icon-SymbolMoogle:before{content:'\e952';}
-.icon-SymbolAlarmClock:before{content:'\e953';}
-.icon-class_job_001:before{content:'\f001';}
-.icon-class_job_002:before{content:'\f002';}
-.icon-class_job_003:before{content:'\f003';}
-.icon-class_job_004:before{content:'\f004';}
-.icon-class_job_005:before{content:'\f005';}
-.icon-class_job_006:before{content:'\f006';}
-.icon-class_job_007:before{content:'\f007';}
-.icon-class_job_008:before{content:'\f008';}
-.icon-class_job_009:before{content:'\f009';}
-.icon-class_job_010:before{content:'\f010';}
-.icon-class_job_011:before{content:'\f011';}
-.icon-class_job_012:before{content:'\f012';}
-.icon-class_job_013:before{content:'\f013';}
-.icon-class_job_014:before{content:'\f014';}
-.icon-class_job_015:before{content:'\f015';}
-.icon-class_job_016:before{content:'\f016';}
-.icon-class_job_017:before{content:'\f017';}
-.icon-class_job_018:before{content:'\f018';}
-.icon-class_job_019:before{content:'\f019';}
-.icon-class_job_020:before{content:'\f020';}
-.icon-class_job_021:before{content:'\f021';}
-.icon-class_job_022:before{content:'\f022';}
-.icon-class_job_023:before{content:'\f023';}
-.icon-class_job_024:before{content:'\f024';}
-.icon-class_job_025:before{content:'\f025';}
-.icon-class_job_026:before{content:'\f026';}
-.icon-class_job_027:before{content:'\f027';}
-.icon-class_job_028:before{content:'\f028';}
-.icon-class_job_029:before{content:'\f029';}
-.icon-class_job_030:before{content:'\f030';}
-.icon-class_job_031:before{content:'\f031';}
-.icon-class_job_032:before{content:'\f032';}
-.icon-class_job_033:before{content:'\f033';}
-.icon-class_job_034:before{content:'\f034';}
-.icon-class_job_035:before{content:'\f035';}
-.icon-class_job_036:before{content:'\f036';}
-.icon-class_job_037:before{content:'\f037';}
-.icon-class_job_038:before{content:'\f038';}
-.icon-Armoury_MainArm:before{content:'\f081';}
-.icon-Armoury_SubArm:before{content:'\f082';}
-.icon-Armoury_Head:before{content:'\f083';}
-.icon-Armoury_Body:before{content:'\f084';}
-.icon-Armoury_Hands:before{content:'\f085';}
-.icon-Armoury_Waist:before{content:'\f086';}
-.icon-Armoury_Legs:before{content:'\f087';}
-.icon-Armoury_Feet:before{content:'\f088';}
-.icon-Armoury_Earrings:before{content:'\f089';}
-.icon-Armoury_Necklace:before{content:'\f090';}
-.icon-Armoury_Bracelets:before{content:'\f091';}
-.icon-Armoury_Ring:before{content:'\f092';}
-.icon-Armoury_SoulCrystal:before{content:'\f093';}
-.icon-ItemCategory_PGL:before{content:'\f101';}
-.icon-ItemCategory_GLA:before{content:'\f102';}
-.icon-ItemCategory_MRD:before{content:'\f103';}
-.icon-ItemCategory_LNC:before{content:'\f104';}
-.icon-ItemCategory_ARC:before{content:'\f105';}
-.icon-ItemCategory_ROG:before{content:'\f106';}
-.icon-ItemCategory_CNJ:before{content:'\f107';}
-.icon-ItemCategory_THM:before{content:'\f108';}
-.icon-ItemCategory_ACN:before{content:'\f109';}
-.icon-ItemCategory_Shield:before{content:'\f110';}
-.icon-ItemCategory_CRP:before{content:'\f112';}
-.icon-ItemCategory_BSM:before{content:'\f113';}
-.icon-ItemCategory_ARM:before{content:'\f114';}
-.icon-ItemCategory_GSM:before{content:'\f115';}
-.icon-ItemCategory_LTW:before{content:'\f116';}
-.icon-ItemCategory_WVR:before{content:'\f117';}
-.icon-ItemCategory_ALC:before{content:'\f118';}
-.icon-ItemCategory_CUL:before{content:'\f119';}
-.icon-ItemCategory_MIN:before{content:'\f120';}
-.icon-ItemCategory_BTN:before{content:'\f121';}
-.icon-ItemCategory_fisher:before{content:'\f122';}
-.icon-ItemCategory_Fishing_Tackle:before{content:'\f123';}
-.icon-ItemCategory_Medicine:before{content:'\f136';}
-.icon-ItemCategory_Bone:before{content:'\f144';}
-.icon-ItemCategory_Meal:before{content:'\f146';}
-.icon-ItemCategory_Dye:before{content:'\f147';}
-.icon-ItemCategory_Part:before{content:'\f148';}
-.icon-ItemCategory_Furnishing:before{content:'\f149';}
-.icon-ItemCategory_Materia:before{content:'\f150';}
-.icon-ItemCategory_Crystal:before{content:'\f151';}
-.icon-ItemCategory_Catalyst:before{content:'\f152';}
-.icon-ItemCategory_Miscellany:before{content:'\f153';}
-.icon-ItemCategory_Seasonal_Miscellany:before{content:'\f154';}
-.icon-ItemCategory_Minion:before{content:'\f155';}
-.icon-ItemCategory_Triple_Triad_Card:before{content:'\f156';}
-.icon-ItemCategory_Soul_Crystal:before{content:'\f157';}
-.icon-ItemCategory_Other:before{content:'\f159';}
-.icon-ItemCategory_Exterior_Fixtures:before{content:'\f160';}
-.icon-ItemCategory_Interior_Fixtures:before{content:'\f161';}
-.icon-ItemCategory_Tables:before{content:'\f162';}
-.icon-ItemCategory_Tabletop:before{content:'\f163';}
-.icon-ItemCategory_Furnishings:before{content:'\f164';}
-.icon-ItemCategory_Chairs_and_Beds:before{content:'\f165';}
-.icon-ItemCategory_Wallmounted:before{content:'\f166';}
-.icon-ItemCategory_Rug:before{content:'\f167';}
-.icon-ItemCategory_Outdoor_Furnishings:before{content:'\f168';}
-.icon-ItemCategory_Airship:before{content:'\f169';}
-.icon-ItemCategory_DRK:before{content:'\f170';}
-.icon-ItemCategory_AST:before{content:'\f171';}
-.icon-ItemCategory_MCH:before{content:'\f172';}
-.icon-ItemCategory_Orchestrion_Roll:before{content:'\f173';}
-.icon-ItemCategory_Gardening:before{content:'\f174';}
-.icon-ItemCategory_Painting:before{content:'\f175';}
-.icon-ItemCategory_RDM:before{content:'\f176';}
-.icon-ItemCategory_SAM:before{content:'\f177';}
-.icon-ItemCategory_SCH:before{content:'\f178';}
-.icon-ItemCategory_BLU:before{content:'\f180';}
-.icon-ItemAll:before{content:'\f200';}
-.icon-Bag:before{content:'\f201';}
-.icon-ArmoryChest:before{content:'\f202';}
-.icon-Gil:before{content:'\f203';}
-.icon-Retainer:before{content:'\f204';}
-.icon-ChocoboStorage:before{content:'\f205';}
-.icon-ItemShard:before{content:'\f206';}
-.icon-TrashCan:before{content:'\f208';}
-.icon-Wallet:before{content:'\f209';}
-.icon-CharaChange:before{content:'\f210';}
-.icon-CommandIn:before{content:'\f211';}
-.icon-CommandChange:before{content:'\f212';}
-.icon-CommandAdd:before{content:'\f213';}
-.icon-MarketFilter:before{content:'\f214';}
-.icon-MarketSort:before{content:'\f215';}
-.icon-item_command_move_ac:before{content:'\f216';}
-.icon-ListView:before{content:'\f219';}
-.icon-RoundArrowUp:before{content:'\f221';}
-.icon-RoundArrowDown:before{content:'\f222';}
-.icon-RoundArrowRight:before{content:'\f223';}
-.icon-TradeUp:before{content:'\f224';}
-.icon-TradeDown:before{content:'\f225';}
-.icon-MoogleBasket:before{content:'\f226';}
-.icon-GlamoursBase:before{content:'\f231';}
-.icon-GlamoursColor:before{content:'\f232';}
-.icon-GlamoursNullBase:before{content:'\f233';}
-.icon-GlamoursNullColor:before{content:'\f234';}
-.icon-PaintBorder:before{content:'\f235';}
-.icon-PaintColor:before{content:'\f236';}
-.icon-PaintBorderLarge:before{content:'\f237';}
-.icon-PaintColorLarge:before{content:'\f238';}
-.icon-item_signature:before{content:'\f239';}
-.icon-StorageCharacter:before{content:'\f300';}
-.icon-SquareNo01:before{content:'\f301';}
-.icon-SquareNo02:before{content:'\f302';}
-.icon-SquareNo03:before{content:'\f303';}
-.icon-SquareNo04:before{content:'\f304';}
-.icon-SquareNo05:before{content:'\f305';}
-.icon-SquareNo06:before{content:'\f306';}
-.icon-SquareNo07:before{content:'\f307';}
-.icon-SquareNo08:before{content:'\f308';}
-.icon-SquareNo09:before{content:'\f309';}
-.icon-SquareNo10:before{content:'\f310';}
-.icon-ChocoboStorage1:before{content:'\f331';}
-.icon-ChocoboStorage2:before{content:'\f332';}
-.icon-CharacterEmpty:before{content:'\f341';}
+    .xiv-app_address:before{content:'\e010';}
+.xiv-app_friend:before{content:'\e020';}
+.xiv-app_fc:before{content:'\e021';}
+.xiv-app_ls:before{content:'\e022';}
+.xiv-app_favorite:before{content:'\e030';}
+.xiv-app_favorite_list:before{content:'\e031';}
+.xiv-app_group:before{content:'\e050';}
+.xiv-app_group_add:before{content:'\e052';}
+.xiv-app_talk:before{content:'\e060';}
+.xiv-app_character:before{content:'\e070';}
+.xiv-app_character_add:before{content:'\e072';}
+.xiv-app_character_info:before{content:'\e073';}
+.xiv-app_mobile:before{content:'\e074';}
+.xiv-CrossWorld:before{content:'\e075';}
+.xiv-FFXIVMeteo:before{content:'\e076';}
+.xiv-ViewMove:before{content:'\e077';}
+.xiv-app_world_home:before{content:'\e078';}
+.xiv-app_world_wanderer:before{content:'\e079';}
+.xiv-app_block:before{content:'\e080';}
+.xiv-app_block_list:before{content:'\e081';}
+.xiv-app_black:before{content:'\e090';}
+.xiv-app_black_list:before{content:'\e091';}
+.xiv-NaviLeft:before{content:'\e100';}
+.xiv-NaviRight:before{content:'\e101';}
+.xiv-NaviUp:before{content:'\e102';}
+.xiv-NaviBottom:before{content:'\e103';}
+.xiv-NaviArrowLeft:before{content:'\e110';}
+.xiv-NaviArrowRight:before{content:'\e111';}
+.xiv-NavigationClose:before{content:'\e120';}
+.xiv-Add:before{content:'\e121';}
+.xiv-app_action_block_open:before{content:'\e122';}
+.xiv-app_action_block_close:before{content:'\e123';}
+.xiv-app_status_online:before{content:'\e150';}
+.xiv-app_status_contents:before{content:'\e151';}
+.xiv-app_status_loading:before{content:'\e152';}
+.xiv-NaviMenu:before{content:'\e200';}
+.xiv-app_navi_drawer:before{content:'\e201';}
+.xiv-NaviSearch:before{content:'\e210';}
+.xiv-NaviInputClear:before{content:'\e211';}
+.xiv-app_drawer_setting:before{content:'\e220';}
+.xiv-DrawerCustom:before{content:'\e221';}
+.xiv-DrawerDelete:before{content:'\e230';}
+.xiv-DrawerExit:before{content:'\e231';}
+.xiv-ViewRefresh:before{content:'\e240';}
+.xiv-ViewLoad:before{content:'\e241';}
+.xiv-app_view_list:before{content:'\e250';}
+.xiv-app_view_grid:before{content:'\e251';}
+.xiv-ViewDetail:before{content:'\e252';}
+.xiv-app_drawer_service:before{content:'\e261';}
+.xiv-app_drawer_news:before{content:'\e262';}
+.xiv-app_drawer_guide:before{content:'\e263';}
+.xiv-app_drawer_qa:before{content:'\e264';}
+.xiv-app_drawer_support:before{content:'\e265';}
+.xiv-app_drawer_edb:before{content:'\e266';}
+.xiv-app_drawer_game_help:before{content:'\e267';}
+.xiv-app_notification_topics:before{content:'\e271';}
+.xiv-app_notification_notices:before{content:'\e272';}
+.xiv-app_notification_maintenance:before{content:'\e273';}
+.xiv-app_notification_updates:before{content:'\e274';}
+.xiv-app_notification_status:before{content:'\e275';}
+.xiv-Chat:before{content:'\e300';}
+.xiv-app_chat_bg:before{content:'\e303';}
+.xiv-app_chat_bg_trim:before{content:'\e304';}
+.xiv-app_chat_photo:before{content:'\e305';}
+.xiv-MessageSend:before{content:'\e310';}
+.xiv-app_chat_stamp:before{content:'\e311';}
+.xiv-ChatReadOk:before{content:'\e320';}
+.xiv-ChatMute:before{content:'\e321';}
+.xiv-ChatQuote:before{content:'\e322';}
+.xiv-ChatReadHidden:before{content:'\e323';}
+.xiv-ChatDeleted:before{content:'\e324';}
+.xiv-Schedule:before{content:'\e400';}
+.xiv-ScheduleAdd:before{content:'\e402';}
+.xiv-ScheduleCancel:before{content:'\e403';}
+.xiv-ScheduleTime:before{content:'\e410';}
+.xiv-ScheduleDetails:before{content:'\e411';}
+.xiv-ScheduleMember:before{content:'\e412';}
+.xiv-ScheduleHistory:before{content:'\e413';}
+.xiv-ScheduleShare:before{content:'\e414';}
+.xiv-Leader:before{content:'\e415';}
+.xiv-NotificationOn:before{content:'\e450';}
+.xiv-NotificationOff:before{content:'\e451';}
+.xiv-ScheduleAlerm:before{content:'\e452';}
+.xiv-CheckBoxOff:before{content:'\e500';}
+.xiv-CheckBoxOn:before{content:'\e501';}
+.xiv-CheckBoxClear:before{content:'\e503';}
+.xiv-RadioButtonOff:before{content:'\e505';}
+.xiv-RadioButtonOn:before{content:'\e506';}
+.xiv-FormEdit:before{content:'\e510';}
+.xiv-CopyPaste:before{content:'\e520';}
+.xiv-ItemBuyBack:before{content:'\e601';}
+.xiv-Market:before{content:'\e700';}
+.xiv-MarketLimit:before{content:'\e702';}
+.xiv-MarketPurchase:before{content:'\e703';}
+.xiv-app_market_exhibit:before{content:'\e704';}
+.xiv-PaymentCoin:before{content:'\e800';}
+.xiv-PaymentBuy:before{content:'\e801';}
+.xiv-app_payment_symbol:before{content:'\e802';}
+.xiv-app_home_menu_inventory:before{content:'\e844';}
+.xiv-app_home_menu_market_exhibit:before{content:'\e845';}
+.xiv-app_home_menu_market_purchase:before{content:'\e846';}
+.xiv-app_home_command_ok:before{content:'\e851';}
+.xiv-app_home_command_ng:before{content:'\e852';}
+.xiv-app_home_command_limit:before{content:'\e853';}
+.xiv-app_home_command_view:before{content:'\e854';}
+.xiv-SymbolAlert:before{content:'\e900';}
+.xiv-SymbolQuestion:before{content:'\e901';}
+.xiv-SymbolCheck:before{content:'\e902';}
+.xiv-SymbolCross:before{content:'\e903';}
+.xiv-SymbolMail:before{content:'\e904';}
+.xiv-SymbolLock:before{content:'\e905';}
+.xiv-ExternalLink:before{content:'\e906';}
+.xiv-SquareBoxAlert:before{content:'\e910';}
+.xiv-SquareBoxQuestion:before{content:'\e911';}
+.xiv-SquareBoxCheck:before{content:'\e912';}
+.xiv-SquareBoxCross:before{content:'\e913';}
+.xiv-TriangleBoxAlert:before{content:'\e919';}
+.xiv-SquareFrameCheck:before{content:'\e922';}
+.xiv-SymbolInformation:before{content:'\e930';}
+.xiv-app_symbol_info_circle:before{content:'\e931';}
+.xiv-CircleCheck:before{content:'\e932';}
+.xiv-SymbolMamet:before{content:'\e951';}
+.xiv-SymbolMoogle:before{content:'\e952';}
+.xiv-SymbolAlarmClock:before{content:'\e953';}
+.xiv-class_job_001:before{content:'\f001';}
+.xiv-class_job_002:before{content:'\f002';}
+.xiv-class_job_003:before{content:'\f003';}
+.xiv-class_job_004:before{content:'\f004';}
+.xiv-class_job_005:before{content:'\f005';}
+.xiv-class_job_006:before{content:'\f006';}
+.xiv-class_job_007:before{content:'\f007';}
+.xiv-class_job_008:before{content:'\f008';}
+.xiv-class_job_009:before{content:'\f009';}
+.xiv-class_job_010:before{content:'\f010';}
+.xiv-class_job_011:before{content:'\f011';}
+.xiv-class_job_012:before{content:'\f012';}
+.xiv-class_job_013:before{content:'\f013';}
+.xiv-class_job_014:before{content:'\f014';}
+.xiv-class_job_015:before{content:'\f015';}
+.xiv-class_job_016:before{content:'\f016';}
+.xiv-class_job_017:before{content:'\f017';}
+.xiv-class_job_018:before{content:'\f018';}
+.xiv-class_job_019:before{content:'\f019';}
+.xiv-class_job_020:before{content:'\f020';}
+.xiv-class_job_021:before{content:'\f021';}
+.xiv-class_job_022:before{content:'\f022';}
+.xiv-class_job_023:before{content:'\f023';}
+.xiv-class_job_024:before{content:'\f024';}
+.xiv-class_job_025:before{content:'\f025';}
+.xiv-class_job_026:before{content:'\f026';}
+.xiv-class_job_027:before{content:'\f027';}
+.xiv-class_job_028:before{content:'\f028';}
+.xiv-class_job_029:before{content:'\f029';}
+.xiv-class_job_030:before{content:'\f030';}
+.xiv-class_job_031:before{content:'\f031';}
+.xiv-class_job_032:before{content:'\f032';}
+.xiv-class_job_033:before{content:'\f033';}
+.xiv-class_job_034:before{content:'\f034';}
+.xiv-class_job_035:before{content:'\f035';}
+.xiv-class_job_036:before{content:'\f036';}
+.xiv-class_job_037:before{content:'\f037';}
+.xiv-class_job_038:before{content:'\f038';}
+.xiv-Armoury_MainArm:before{content:'\f081';}
+.xiv-Armoury_SubArm:before{content:'\f082';}
+.xiv-Armoury_Head:before{content:'\f083';}
+.xiv-Armoury_Body:before{content:'\f084';}
+.xiv-Armoury_Hands:before{content:'\f085';}
+.xiv-Armoury_Waist:before{content:'\f086';}
+.xiv-Armoury_Legs:before{content:'\f087';}
+.xiv-Armoury_Feet:before{content:'\f088';}
+.xiv-Armoury_Earrings:before{content:'\f089';}
+.xiv-Armoury_Necklace:before{content:'\f090';}
+.xiv-Armoury_Bracelets:before{content:'\f091';}
+.xiv-Armoury_Ring:before{content:'\f092';}
+.xiv-Armoury_SoulCrystal:before{content:'\f093';}
+.xiv-ItemCategory_PGL:before{content:'\f101';}
+.xiv-ItemCategory_GLA:before{content:'\f102';}
+.xiv-ItemCategory_MRD:before{content:'\f103';}
+.xiv-ItemCategory_LNC:before{content:'\f104';}
+.xiv-ItemCategory_ARC:before{content:'\f105';}
+.xiv-ItemCategory_ROG:before{content:'\f106';}
+.xiv-ItemCategory_CNJ:before{content:'\f107';}
+.xiv-ItemCategory_THM:before{content:'\f108';}
+.xiv-ItemCategory_ACN:before{content:'\f109';}
+.xiv-ItemCategory_Shield:before{content:'\f110';}
+.xiv-ItemCategory_CRP:before{content:'\f112';}
+.xiv-ItemCategory_BSM:before{content:'\f113';}
+.xiv-ItemCategory_ARM:before{content:'\f114';}
+.xiv-ItemCategory_GSM:before{content:'\f115';}
+.xiv-ItemCategory_LTW:before{content:'\f116';}
+.xiv-ItemCategory_WVR:before{content:'\f117';}
+.xiv-ItemCategory_ALC:before{content:'\f118';}
+.xiv-ItemCategory_CUL:before{content:'\f119';}
+.xiv-ItemCategory_MIN:before{content:'\f120';}
+.xiv-ItemCategory_BTN:before{content:'\f121';}
+.xiv-ItemCategory_fisher:before{content:'\f122';}
+.xiv-ItemCategory_Fishing_Tackle:before{content:'\f123';}
+.xiv-ItemCategory_Medicine:before{content:'\f136';}
+.xiv-ItemCategory_Bone:before{content:'\f144';}
+.xiv-ItemCategory_Meal:before{content:'\f146';}
+.xiv-ItemCategory_Dye:before{content:'\f147';}
+.xiv-ItemCategory_Part:before{content:'\f148';}
+.xiv-ItemCategory_Furnishing:before{content:'\f149';}
+.xiv-ItemCategory_Materia:before{content:'\f150';}
+.xiv-ItemCategory_Crystal:before{content:'\f151';}
+.xiv-ItemCategory_Catalyst:before{content:'\f152';}
+.xiv-ItemCategory_Miscellany:before{content:'\f153';}
+.xiv-ItemCategory_Seasonal_Miscellany:before{content:'\f154';}
+.xiv-ItemCategory_Minion:before{content:'\f155';}
+.xiv-ItemCategory_Triple_Triad_Card:before{content:'\f156';}
+.xiv-ItemCategory_Soul_Crystal:before{content:'\f157';}
+.xiv-ItemCategory_Other:before{content:'\f159';}
+.xiv-ItemCategory_Exterior_Fixtures:before{content:'\f160';}
+.xiv-ItemCategory_Interior_Fixtures:before{content:'\f161';}
+.xiv-ItemCategory_Tables:before{content:'\f162';}
+.xiv-ItemCategory_Tabletop:before{content:'\f163';}
+.xiv-ItemCategory_Furnishings:before{content:'\f164';}
+.xiv-ItemCategory_Chairs_and_Beds:before{content:'\f165';}
+.xiv-ItemCategory_Wallmounted:before{content:'\f166';}
+.xiv-ItemCategory_Rug:before{content:'\f167';}
+.xiv-ItemCategory_Outdoor_Furnishings:before{content:'\f168';}
+.xiv-ItemCategory_Airship:before{content:'\f169';}
+.xiv-ItemCategory_DRK:before{content:'\f170';}
+.xiv-ItemCategory_AST:before{content:'\f171';}
+.xiv-ItemCategory_MCH:before{content:'\f172';}
+.xiv-ItemCategory_Orchestrion_Roll:before{content:'\f173';}
+.xiv-ItemCategory_Gardening:before{content:'\f174';}
+.xiv-ItemCategory_Painting:before{content:'\f175';}
+.xiv-ItemCategory_RDM:before{content:'\f176';}
+.xiv-ItemCategory_SAM:before{content:'\f177';}
+.xiv-ItemCategory_SCH:before{content:'\f178';}
+.xiv-ItemCategory_BLU:before{content:'\f180';}
+.xiv-ItemAll:before{content:'\f200';}
+.xiv-Bag:before{content:'\f201';}
+.xiv-ArmoryChest:before{content:'\f202';}
+.xiv-Gil:before{content:'\f203';}
+.xiv-Retainer:before{content:'\f204';}
+.xiv-ChocoboStorage:before{content:'\f205';}
+.xiv-ItemShard:before{content:'\f206';}
+.xiv-TrashCan:before{content:'\f208';}
+.xiv-Wallet:before{content:'\f209';}
+.xiv-CharaChange:before{content:'\f210';}
+.xiv-CommandIn:before{content:'\f211';}
+.xiv-CommandChange:before{content:'\f212';}
+.xiv-CommandAdd:before{content:'\f213';}
+.xiv-MarketFilter:before{content:'\f214';}
+.xiv-MarketSort:before{content:'\f215';}
+.xiv-item_command_move_ac:before{content:'\f216';}
+.xiv-ListView:before{content:'\f219';}
+.xiv-RoundArrowUp:before{content:'\f221';}
+.xiv-RoundArrowDown:before{content:'\f222';}
+.xiv-RoundArrowRight:before{content:'\f223';}
+.xiv-TradeUp:before{content:'\f224';}
+.xiv-TradeDown:before{content:'\f225';}
+.xiv-MoogleBasket:before{content:'\f226';}
+.xiv-GlamoursBase:before{content:'\f231';}
+.xiv-GlamoursColor:before{content:'\f232';}
+.xiv-GlamoursNullBase:before{content:'\f233';}
+.xiv-GlamoursNullColor:before{content:'\f234';}
+.xiv-PaintBorder:before{content:'\f235';}
+.xiv-PaintColor:before{content:'\f236';}
+.xiv-PaintBorderLarge:before{content:'\f237';}
+.xiv-PaintColorLarge:before{content:'\f238';}
+.xiv-item_signature:before{content:'\f239';}
+.xiv-StorageCharacter:before{content:'\f300';}
+.xiv-SquareNo01:before{content:'\f301';}
+.xiv-SquareNo02:before{content:'\f302';}
+.xiv-SquareNo03:before{content:'\f303';}
+.xiv-SquareNo04:before{content:'\f304';}
+.xiv-SquareNo05:before{content:'\f305';}
+.xiv-SquareNo06:before{content:'\f306';}
+.xiv-SquareNo07:before{content:'\f307';}
+.xiv-SquareNo08:before{content:'\f308';}
+.xiv-SquareNo09:before{content:'\f309';}
+.xiv-SquareNo10:before{content:'\f310';}
+.xiv-ChocoboStorage1:before{content:'\f331';}
+.xiv-ChocoboStorage2:before{content:'\f332';}
+.xiv-CharacterEmpty:before{content:'\f341';}
 
 </style>
 </head>
@@ -351,284 +347,284 @@
     result in an Arcanist <icon class="xivicon icon-ACN"></icon> icon being produced.
 </p>
 <ul>
-<li><icon class="xivicon icon-app_address"></icon>app_address</li>
-<li><icon class="xivicon icon-app_friend"></icon>app_friend</li>
-<li><icon class="xivicon icon-app_fc"></icon>app_fc</li>
-<li><icon class="xivicon icon-app_ls"></icon>app_ls</li>
-<li><icon class="xivicon icon-app_favorite"></icon>app_favorite</li>
-<li><icon class="xivicon icon-app_favorite_list"></icon>app_favorite_list</li>
-<li><icon class="xivicon icon-app_group"></icon>app_group</li>
-<li><icon class="xivicon icon-app_group_add"></icon>app_group_add</li>
-<li><icon class="xivicon icon-app_talk"></icon>app_talk</li>
-<li><icon class="xivicon icon-app_character"></icon>app_character</li>
-<li><icon class="xivicon icon-app_character_add"></icon>app_character_add</li>
-<li><icon class="xivicon icon-app_character_info"></icon>app_character_info</li>
-<li><icon class="xivicon icon-app_mobile"></icon>app_mobile</li>
-<li><icon class="xivicon icon-CrossWorld"></icon>CrossWorld</li>
-<li><icon class="xivicon icon-FFXIVMeteo"></icon>FFXIVMeteo</li>
-<li><icon class="xivicon icon-ViewMove"></icon>ViewMove</li>
-<li><icon class="xivicon icon-app_world_home"></icon>app_world_home</li>
-<li><icon class="xivicon icon-app_world_wanderer"></icon>app_world_wanderer</li>
-<li><icon class="xivicon icon-app_block"></icon>app_block</li>
-<li><icon class="xivicon icon-app_block_list"></icon>app_block_list</li>
-<li><icon class="xivicon icon-app_black"></icon>app_black</li>
-<li><icon class="xivicon icon-app_black_list"></icon>app_black_list</li>
-<li><icon class="xivicon icon-NaviLeft"></icon>NaviLeft</li>
-<li><icon class="xivicon icon-NaviRight"></icon>NaviRight</li>
-<li><icon class="xivicon icon-NaviUp"></icon>NaviUp</li>
-<li><icon class="xivicon icon-NaviBottom"></icon>NaviBottom</li>
-<li><icon class="xivicon icon-NaviArrowLeft"></icon>NaviArrowLeft</li>
-<li><icon class="xivicon icon-NaviArrowRight"></icon>NaviArrowRight</li>
-<li><icon class="xivicon icon-NavigationClose"></icon>NavigationClose</li>
-<li><icon class="xivicon icon-Add"></icon>Add</li>
-<li><icon class="xivicon icon-app_action_block_open"></icon>app_action_block_open</li>
-<li><icon class="xivicon icon-app_action_block_close"></icon>app_action_block_close</li>
-<li><icon class="xivicon icon-app_status_online"></icon>app_status_online</li>
-<li><icon class="xivicon icon-app_status_contents"></icon>app_status_contents</li>
-<li><icon class="xivicon icon-app_status_loading"></icon>app_status_loading</li>
-<li><icon class="xivicon icon-NaviMenu"></icon>NaviMenu</li>
-<li><icon class="xivicon icon-app_navi_drawer"></icon>app_navi_drawer</li>
-<li><icon class="xivicon icon-NaviSearch"></icon>NaviSearch</li>
-<li><icon class="xivicon icon-NaviInputClear"></icon>NaviInputClear</li>
-<li><icon class="xivicon icon-app_drawer_setting"></icon>app_drawer_setting</li>
-<li><icon class="xivicon icon-DrawerCustom"></icon>DrawerCustom</li>
-<li><icon class="xivicon icon-DrawerDelete"></icon>DrawerDelete</li>
-<li><icon class="xivicon icon-DrawerExit"></icon>DrawerExit</li>
-<li><icon class="xivicon icon-ViewRefresh"></icon>ViewRefresh</li>
-<li><icon class="xivicon icon-ViewLoad"></icon>ViewLoad</li>
-<li><icon class="xivicon icon-app_view_list"></icon>app_view_list</li>
-<li><icon class="xivicon icon-app_view_grid"></icon>app_view_grid</li>
-<li><icon class="xivicon icon-ViewDetail"></icon>ViewDetail</li>
-<li><icon class="xivicon icon-app_drawer_service"></icon>app_drawer_service</li>
-<li><icon class="xivicon icon-app_drawer_news"></icon>app_drawer_news</li>
-<li><icon class="xivicon icon-app_drawer_guide"></icon>app_drawer_guide</li>
-<li><icon class="xivicon icon-app_drawer_qa"></icon>app_drawer_qa</li>
-<li><icon class="xivicon icon-app_drawer_support"></icon>app_drawer_support</li>
-<li><icon class="xivicon icon-app_drawer_edb"></icon>app_drawer_edb</li>
-<li><icon class="xivicon icon-app_drawer_game_help"></icon>app_drawer_game_help</li>
-<li><icon class="xivicon icon-app_notification_topics"></icon>app_notification_topics</li>
-<li><icon class="xivicon icon-app_notification_notices"></icon>app_notification_notices</li>
-<li><icon class="xivicon icon-app_notification_maintenance"></icon>app_notification_maintenance</li>
-<li><icon class="xivicon icon-app_notification_updates"></icon>app_notification_updates</li>
-<li><icon class="xivicon icon-app_notification_status"></icon>app_notification_status</li>
-<li><icon class="xivicon icon-Chat"></icon>Chat</li>
-<li><icon class="xivicon icon-app_chat_bg"></icon>app_chat_bg</li>
-<li><icon class="xivicon icon-app_chat_bg_trim"></icon>app_chat_bg_trim</li>
-<li><icon class="xivicon icon-app_chat_photo"></icon>app_chat_photo</li>
-<li><icon class="xivicon icon-MessageSend"></icon>MessageSend</li>
-<li><icon class="xivicon icon-app_chat_stamp"></icon>app_chat_stamp</li>
-<li><icon class="xivicon icon-ChatReadOk"></icon>ChatReadOk</li>
-<li><icon class="xivicon icon-ChatMute"></icon>ChatMute</li>
-<li><icon class="xivicon icon-ChatQuote"></icon>ChatQuote</li>
-<li><icon class="xivicon icon-ChatReadHidden"></icon>ChatReadHidden</li>
-<li><icon class="xivicon icon-ChatDeleted"></icon>ChatDeleted</li>
-<li><icon class="xivicon icon-Schedule"></icon>Schedule</li>
-<li><icon class="xivicon icon-ScheduleAdd"></icon>ScheduleAdd</li>
-<li><icon class="xivicon icon-ScheduleCancel"></icon>ScheduleCancel</li>
-<li><icon class="xivicon icon-ScheduleTime"></icon>ScheduleTime</li>
-<li><icon class="xivicon icon-ScheduleDetails"></icon>ScheduleDetails</li>
-<li><icon class="xivicon icon-ScheduleMember"></icon>ScheduleMember</li>
-<li><icon class="xivicon icon-ScheduleHistory"></icon>ScheduleHistory</li>
-<li><icon class="xivicon icon-ScheduleShare"></icon>ScheduleShare</li>
-<li><icon class="xivicon icon-Leader"></icon>Leader</li>
-<li><icon class="xivicon icon-NotificationOn"></icon>NotificationOn</li>
-<li><icon class="xivicon icon-NotificationOff"></icon>NotificationOff</li>
-<li><icon class="xivicon icon-ScheduleAlerm"></icon>ScheduleAlerm</li>
-<li><icon class="xivicon icon-CheckBoxOff"></icon>CheckBoxOff</li>
-<li><icon class="xivicon icon-CheckBoxOn"></icon>CheckBoxOn</li>
-<li><icon class="xivicon icon-CheckBoxClear"></icon>CheckBoxClear</li>
-<li><icon class="xivicon icon-RadioButtonOff"></icon>RadioButtonOff</li>
-<li><icon class="xivicon icon-RadioButtonOn"></icon>RadioButtonOn</li>
-<li><icon class="xivicon icon-FormEdit"></icon>FormEdit</li>
-<li><icon class="xivicon icon-CopyPaste"></icon>CopyPaste</li>
-<li><icon class="xivicon icon-ItemBuyBack"></icon>ItemBuyBack</li>
-<li><icon class="xivicon icon-Market"></icon>Market</li>
-<li><icon class="xivicon icon-MarketLimit"></icon>MarketLimit</li>
-<li><icon class="xivicon icon-MarketPurchase"></icon>MarketPurchase</li>
-<li><icon class="xivicon icon-app_market_exhibit"></icon>app_market_exhibit</li>
-<li><icon class="xivicon icon-PaymentCoin"></icon>PaymentCoin</li>
-<li><icon class="xivicon icon-PaymentBuy"></icon>PaymentBuy</li>
-<li><icon class="xivicon icon-app_payment_symbol"></icon>app_payment_symbol</li>
-<li><icon class="xivicon icon-app_home_menu_inventory"></icon>app_home_menu_inventory</li>
-<li><icon class="xivicon icon-app_home_menu_market_exhibit"></icon>app_home_menu_market_exhibit</li>
-<li><icon class="xivicon icon-app_home_menu_market_purchase"></icon>app_home_menu_market_purchase</li>
-<li><icon class="xivicon icon-app_home_command_ok"></icon>app_home_command_ok</li>
-<li><icon class="xivicon icon-app_home_command_ng"></icon>app_home_command_ng</li>
-<li><icon class="xivicon icon-app_home_command_limit"></icon>app_home_command_limit</li>
-<li><icon class="xivicon icon-app_home_command_view"></icon>app_home_command_view</li>
-<li><icon class="xivicon icon-SymbolAlert"></icon>SymbolAlert</li>
-<li><icon class="xivicon icon-SymbolQuestion"></icon>SymbolQuestion</li>
-<li><icon class="xivicon icon-SymbolCheck"></icon>SymbolCheck</li>
-<li><icon class="xivicon icon-SymbolCross"></icon>SymbolCross</li>
-<li><icon class="xivicon icon-SymbolMail"></icon>SymbolMail</li>
-<li><icon class="xivicon icon-SymbolLock"></icon>SymbolLock</li>
-<li><icon class="xivicon icon-ExternalLink"></icon>ExternalLink</li>
-<li><icon class="xivicon icon-SquareBoxAlert"></icon>SquareBoxAlert</li>
-<li><icon class="xivicon icon-SquareBoxQuestion"></icon>SquareBoxQuestion</li>
-<li><icon class="xivicon icon-SquareBoxCheck"></icon>SquareBoxCheck</li>
-<li><icon class="xivicon icon-SquareBoxCross"></icon>SquareBoxCross</li>
-<li><icon class="xivicon icon-TriangleBoxAlert"></icon>TriangleBoxAlert</li>
-<li><icon class="xivicon icon-SquareFrameCheck"></icon>SquareFrameCheck</li>
-<li><icon class="xivicon icon-SymbolInformation"></icon>SymbolInformation</li>
-<li><icon class="xivicon icon-app_symbol_info_circle"></icon>app_symbol_info_circle</li>
-<li><icon class="xivicon icon-CircleCheck"></icon>CircleCheck</li>
-<li><icon class="xivicon icon-SymbolMamet"></icon>SymbolMamet</li>
-<li><icon class="xivicon icon-SymbolMoogle"></icon>SymbolMoogle</li>
-<li><icon class="xivicon icon-SymbolAlarmClock"></icon>SymbolAlarmClock</li>
-<li><icon class="xivicon icon-class_job_001"></icon>class_job_001</li>
-<li><icon class="xivicon icon-class_job_002"></icon>class_job_002</li>
-<li><icon class="xivicon icon-class_job_003"></icon>class_job_003</li>
-<li><icon class="xivicon icon-class_job_004"></icon>class_job_004</li>
-<li><icon class="xivicon icon-class_job_005"></icon>class_job_005</li>
-<li><icon class="xivicon icon-class_job_006"></icon>class_job_006</li>
-<li><icon class="xivicon icon-class_job_007"></icon>class_job_007</li>
-<li><icon class="xivicon icon-class_job_008"></icon>class_job_008</li>
-<li><icon class="xivicon icon-class_job_009"></icon>class_job_009</li>
-<li><icon class="xivicon icon-class_job_010"></icon>class_job_010</li>
-<li><icon class="xivicon icon-class_job_011"></icon>class_job_011</li>
-<li><icon class="xivicon icon-class_job_012"></icon>class_job_012</li>
-<li><icon class="xivicon icon-class_job_013"></icon>class_job_013</li>
-<li><icon class="xivicon icon-class_job_014"></icon>class_job_014</li>
-<li><icon class="xivicon icon-class_job_015"></icon>class_job_015</li>
-<li><icon class="xivicon icon-class_job_016"></icon>class_job_016</li>
-<li><icon class="xivicon icon-class_job_017"></icon>class_job_017</li>
-<li><icon class="xivicon icon-class_job_018"></icon>class_job_018</li>
-<li><icon class="xivicon icon-class_job_019"></icon>class_job_019</li>
-<li><icon class="xivicon icon-class_job_020"></icon>class_job_020</li>
-<li><icon class="xivicon icon-class_job_021"></icon>class_job_021</li>
-<li><icon class="xivicon icon-class_job_022"></icon>class_job_022</li>
-<li><icon class="xivicon icon-class_job_023"></icon>class_job_023</li>
-<li><icon class="xivicon icon-class_job_024"></icon>class_job_024</li>
-<li><icon class="xivicon icon-class_job_025"></icon>class_job_025</li>
-<li><icon class="xivicon icon-class_job_026"></icon>class_job_026</li>
-<li><icon class="xivicon icon-class_job_027"></icon>class_job_027</li>
-<li><icon class="xivicon icon-class_job_028"></icon>class_job_028</li>
-<li><icon class="xivicon icon-class_job_029"></icon>class_job_029</li>
-<li><icon class="xivicon icon-class_job_030"></icon>class_job_030</li>
-<li><icon class="xivicon icon-class_job_031"></icon>class_job_031</li>
-<li><icon class="xivicon icon-class_job_032"></icon>class_job_032</li>
-<li><icon class="xivicon icon-class_job_033"></icon>class_job_033</li>
-<li><icon class="xivicon icon-class_job_034"></icon>class_job_034</li>
-<li><icon class="xivicon icon-class_job_035"></icon>class_job_035</li>
-<li><icon class="xivicon icon-class_job_036"></icon>class_job_036</li>
-<li><icon class="xivicon icon-class_job_037"></icon>class_job_037</li>
-<li><icon class="xivicon icon-class_job_038"></icon>class_job_038</li>
-<li><icon class="xivicon icon-Armoury_MainArm"></icon>Armoury_MainArm</li>
-<li><icon class="xivicon icon-Armoury_SubArm"></icon>Armoury_SubArm</li>
-<li><icon class="xivicon icon-Armoury_Head"></icon>Armoury_Head</li>
-<li><icon class="xivicon icon-Armoury_Body"></icon>Armoury_Body</li>
-<li><icon class="xivicon icon-Armoury_Hands"></icon>Armoury_Hands</li>
-<li><icon class="xivicon icon-Armoury_Waist"></icon>Armoury_Waist</li>
-<li><icon class="xivicon icon-Armoury_Legs"></icon>Armoury_Legs</li>
-<li><icon class="xivicon icon-Armoury_Feet"></icon>Armoury_Feet</li>
-<li><icon class="xivicon icon-Armoury_Earrings"></icon>Armoury_Earrings</li>
-<li><icon class="xivicon icon-Armoury_Necklace"></icon>Armoury_Necklace</li>
-<li><icon class="xivicon icon-Armoury_Bracelets"></icon>Armoury_Bracelets</li>
-<li><icon class="xivicon icon-Armoury_Ring"></icon>Armoury_Ring</li>
-<li><icon class="xivicon icon-Armoury_SoulCrystal"></icon>Armoury_SoulCrystal</li>
-<li><icon class="xivicon icon-ItemCategory_PGL"></icon>ItemCategory_PGL</li>
-<li><icon class="xivicon icon-ItemCategory_GLA"></icon>ItemCategory_GLA</li>
-<li><icon class="xivicon icon-ItemCategory_MRD"></icon>ItemCategory_MRD</li>
-<li><icon class="xivicon icon-ItemCategory_LNC"></icon>ItemCategory_LNC</li>
-<li><icon class="xivicon icon-ItemCategory_ARC"></icon>ItemCategory_ARC</li>
-<li><icon class="xivicon icon-ItemCategory_ROG"></icon>ItemCategory_ROG</li>
-<li><icon class="xivicon icon-ItemCategory_CNJ"></icon>ItemCategory_CNJ</li>
-<li><icon class="xivicon icon-ItemCategory_THM"></icon>ItemCategory_THM</li>
-<li><icon class="xivicon icon-ItemCategory_ACN"></icon>ItemCategory_ACN</li>
-<li><icon class="xivicon icon-ItemCategory_Shield"></icon>ItemCategory_Shield</li>
-<li><icon class="xivicon icon-ItemCategory_CRP"></icon>ItemCategory_CRP</li>
-<li><icon class="xivicon icon-ItemCategory_BSM"></icon>ItemCategory_BSM</li>
-<li><icon class="xivicon icon-ItemCategory_ARM"></icon>ItemCategory_ARM</li>
-<li><icon class="xivicon icon-ItemCategory_GSM"></icon>ItemCategory_GSM</li>
-<li><icon class="xivicon icon-ItemCategory_LTW"></icon>ItemCategory_LTW</li>
-<li><icon class="xivicon icon-ItemCategory_WVR"></icon>ItemCategory_WVR</li>
-<li><icon class="xivicon icon-ItemCategory_ALC"></icon>ItemCategory_ALC</li>
-<li><icon class="xivicon icon-ItemCategory_CUL"></icon>ItemCategory_CUL</li>
-<li><icon class="xivicon icon-ItemCategory_MIN"></icon>ItemCategory_MIN</li>
-<li><icon class="xivicon icon-ItemCategory_BTN"></icon>ItemCategory_BTN</li>
-<li><icon class="xivicon icon-ItemCategory_fisher"></icon>ItemCategory_fisher</li>
-<li><icon class="xivicon icon-ItemCategory_Fishing_Tackle"></icon>ItemCategory_Fishing_Tackle</li>
-<li><icon class="xivicon icon-ItemCategory_Medicine"></icon>ItemCategory_Medicine</li>
-<li><icon class="xivicon icon-ItemCategory_Bone"></icon>ItemCategory_Bone</li>
-<li><icon class="xivicon icon-ItemCategory_Meal"></icon>ItemCategory_Meal</li>
-<li><icon class="xivicon icon-ItemCategory_Dye"></icon>ItemCategory_Dye</li>
-<li><icon class="xivicon icon-ItemCategory_Part"></icon>ItemCategory_Part</li>
-<li><icon class="xivicon icon-ItemCategory_Furnishing"></icon>ItemCategory_Furnishing</li>
-<li><icon class="xivicon icon-ItemCategory_Materia"></icon>ItemCategory_Materia</li>
-<li><icon class="xivicon icon-ItemCategory_Crystal"></icon>ItemCategory_Crystal</li>
-<li><icon class="xivicon icon-ItemCategory_Catalyst"></icon>ItemCategory_Catalyst</li>
-<li><icon class="xivicon icon-ItemCategory_Miscellany"></icon>ItemCategory_Miscellany</li>
-<li><icon class="xivicon icon-ItemCategory_Seasonal_Miscellany"></icon>ItemCategory_Seasonal_Miscellany</li>
-<li><icon class="xivicon icon-ItemCategory_Minion"></icon>ItemCategory_Minion</li>
-<li><icon class="xivicon icon-ItemCategory_Triple_Triad_Card"></icon>ItemCategory_Triple_Triad_Card</li>
-<li><icon class="xivicon icon-ItemCategory_Soul_Crystal"></icon>ItemCategory_Soul_Crystal</li>
-<li><icon class="xivicon icon-ItemCategory_Other"></icon>ItemCategory_Other</li>
-<li><icon class="xivicon icon-ItemCategory_Exterior_Fixtures"></icon>ItemCategory_Exterior_Fixtures</li>
-<li><icon class="xivicon icon-ItemCategory_Interior_Fixtures"></icon>ItemCategory_Interior_Fixtures</li>
-<li><icon class="xivicon icon-ItemCategory_Tables"></icon>ItemCategory_Tables</li>
-<li><icon class="xivicon icon-ItemCategory_Tabletop"></icon>ItemCategory_Tabletop</li>
-<li><icon class="xivicon icon-ItemCategory_Furnishings"></icon>ItemCategory_Furnishings</li>
-<li><icon class="xivicon icon-ItemCategory_Chairs_and_Beds"></icon>ItemCategory_Chairs_and_Beds</li>
-<li><icon class="xivicon icon-ItemCategory_Wallmounted"></icon>ItemCategory_Wallmounted</li>
-<li><icon class="xivicon icon-ItemCategory_Rug"></icon>ItemCategory_Rug</li>
-<li><icon class="xivicon icon-ItemCategory_Outdoor_Furnishings"></icon>ItemCategory_Outdoor_Furnishings</li>
-<li><icon class="xivicon icon-ItemCategory_Airship"></icon>ItemCategory_Airship</li>
-<li><icon class="xivicon icon-ItemCategory_DRK"></icon>ItemCategory_DRK</li>
-<li><icon class="xivicon icon-ItemCategory_AST"></icon>ItemCategory_AST</li>
-<li><icon class="xivicon icon-ItemCategory_MCH"></icon>ItemCategory_MCH</li>
-<li><icon class="xivicon icon-ItemCategory_Orchestrion_Roll"></icon>ItemCategory_Orchestrion_Roll</li>
-<li><icon class="xivicon icon-ItemCategory_Gardening"></icon>ItemCategory_Gardening</li>
-<li><icon class="xivicon icon-ItemCategory_Painting"></icon>ItemCategory_Painting</li>
-<li><icon class="xivicon icon-ItemCategory_RDM"></icon>ItemCategory_RDM</li>
-<li><icon class="xivicon icon-ItemCategory_SAM"></icon>ItemCategory_SAM</li>
-<li><icon class="xivicon icon-ItemCategory_SCH"></icon>ItemCategory_SCH</li>
-<li><icon class="xivicon icon-ItemCategory_BLU"></icon>ItemCategory_BLU</li>
-<li><icon class="xivicon icon-ItemAll"></icon>ItemAll</li>
-<li><icon class="xivicon icon-Bag"></icon>Bag</li>
-<li><icon class="xivicon icon-ArmoryChest"></icon>ArmoryChest</li>
-<li><icon class="xivicon icon-Gil"></icon>Gil</li>
-<li><icon class="xivicon icon-Retainer"></icon>Retainer</li>
-<li><icon class="xivicon icon-ChocoboStorage"></icon>ChocoboStorage</li>
-<li><icon class="xivicon icon-ItemShard"></icon>ItemShard</li>
-<li><icon class="xivicon icon-TrashCan"></icon>TrashCan</li>
-<li><icon class="xivicon icon-Wallet"></icon>Wallet</li>
-<li><icon class="xivicon icon-CharaChange"></icon>CharaChange</li>
-<li><icon class="xivicon icon-CommandIn"></icon>CommandIn</li>
-<li><icon class="xivicon icon-CommandChange"></icon>CommandChange</li>
-<li><icon class="xivicon icon-CommandAdd"></icon>CommandAdd</li>
-<li><icon class="xivicon icon-MarketFilter"></icon>MarketFilter</li>
-<li><icon class="xivicon icon-MarketSort"></icon>MarketSort</li>
-<li><icon class="xivicon icon-item_command_move_ac"></icon>item_command_move_ac</li>
-<li><icon class="xivicon icon-ListView"></icon>ListView</li>
-<li><icon class="xivicon icon-RoundArrowUp"></icon>RoundArrowUp</li>
-<li><icon class="xivicon icon-RoundArrowDown"></icon>RoundArrowDown</li>
-<li><icon class="xivicon icon-RoundArrowRight"></icon>RoundArrowRight</li>
-<li><icon class="xivicon icon-TradeUp"></icon>TradeUp</li>
-<li><icon class="xivicon icon-TradeDown"></icon>TradeDown</li>
-<li><icon class="xivicon icon-MoogleBasket"></icon>MoogleBasket</li>
-<li><icon class="xivicon icon-GlamoursBase"></icon>GlamoursBase</li>
-<li><icon class="xivicon icon-GlamoursColor"></icon>GlamoursColor</li>
-<li><icon class="xivicon icon-GlamoursNullBase"></icon>GlamoursNullBase</li>
-<li><icon class="xivicon icon-GlamoursNullColor"></icon>GlamoursNullColor</li>
-<li><icon class="xivicon icon-PaintBorder"></icon>PaintBorder</li>
-<li><icon class="xivicon icon-PaintColor"></icon>PaintColor</li>
-<li><icon class="xivicon icon-PaintBorderLarge"></icon>PaintBorderLarge</li>
-<li><icon class="xivicon icon-PaintColorLarge"></icon>PaintColorLarge</li>
-<li><icon class="xivicon icon-item_signature"></icon>item_signature</li>
-<li><icon class="xivicon icon-StorageCharacter"></icon>StorageCharacter</li>
-<li><icon class="xivicon icon-SquareNo01"></icon>SquareNo01</li>
-<li><icon class="xivicon icon-SquareNo02"></icon>SquareNo02</li>
-<li><icon class="xivicon icon-SquareNo03"></icon>SquareNo03</li>
-<li><icon class="xivicon icon-SquareNo04"></icon>SquareNo04</li>
-<li><icon class="xivicon icon-SquareNo05"></icon>SquareNo05</li>
-<li><icon class="xivicon icon-SquareNo06"></icon>SquareNo06</li>
-<li><icon class="xivicon icon-SquareNo07"></icon>SquareNo07</li>
-<li><icon class="xivicon icon-SquareNo08"></icon>SquareNo08</li>
-<li><icon class="xivicon icon-SquareNo09"></icon>SquareNo09</li>
-<li><icon class="xivicon icon-SquareNo10"></icon>SquareNo10</li>
-<li><icon class="xivicon icon-ChocoboStorage1"></icon>ChocoboStorage1</li>
-<li><icon class="xivicon icon-ChocoboStorage2"></icon>ChocoboStorage2</li>
-<li><icon class="xivicon icon-CharacterEmpty"></icon>CharacterEmpty</li>
+<li><i class="xiv-app_address"></i>app_address</li>
+<li><i class="xiv-app_friend"></i>app_friend</li>
+<li><i class="xiv-app_fc"></i>app_fc</li>
+<li><i class="xiv-app_ls"></i>app_ls</li>
+<li><i class="xiv-app_favorite"></i>app_favorite</li>
+<li><i class="xiv-app_favorite_list"></i>app_favorite_list</li>
+<li><i class="xiv-app_group"></i>app_group</li>
+<li><i class="xiv-app_group_add"></i>app_group_add</li>
+<li><i class="xiv-app_talk"></i>app_talk</li>
+<li><i class="xiv-app_character"></i>app_character</li>
+<li><i class="xiv-app_character_add"></i>app_character_add</li>
+<li><i class="xiv-app_character_info"></i>app_character_info</li>
+<li><i class="xiv-app_mobile"></i>app_mobile</li>
+<li><i class="xiv-CrossWorld"></i>CrossWorld</li>
+<li><i class="xiv-FFXIVMeteo"></i>FFXIVMeteo</li>
+<li><i class="xiv-ViewMove"></i>ViewMove</li>
+<li><i class="xiv-app_world_home"></i>app_world_home</li>
+<li><i class="xiv-app_world_wanderer"></i>app_world_wanderer</li>
+<li><i class="xiv-app_block"></i>app_block</li>
+<li><i class="xiv-app_block_list"></i>app_block_list</li>
+<li><i class="xiv-app_black"></i>app_black</li>
+<li><i class="xiv-app_black_list"></i>app_black_list</li>
+<li><i class="xiv-NaviLeft"></i>NaviLeft</li>
+<li><i class="xiv-NaviRight"></i>NaviRight</li>
+<li><i class="xiv-NaviUp"></i>NaviUp</li>
+<li><i class="xiv-NaviBottom"></i>NaviBottom</li>
+<li><i class="xiv-NaviArrowLeft"></i>NaviArrowLeft</li>
+<li><i class="xiv-NaviArrowRight"></i>NaviArrowRight</li>
+<li><i class="xiv-NavigationClose"></i>NavigationClose</li>
+<li><i class="xiv-Add"></i>Add</li>
+<li><i class="xiv-app_action_block_open"></i>app_action_block_open</li>
+<li><i class="xiv-app_action_block_close"></i>app_action_block_close</li>
+<li><i class="xiv-app_status_online"></i>app_status_online</li>
+<li><i class="xiv-app_status_contents"></i>app_status_contents</li>
+<li><i class="xiv-app_status_loading"></i>app_status_loading</li>
+<li><i class="xiv-NaviMenu"></i>NaviMenu</li>
+<li><i class="xiv-app_navi_drawer"></i>app_navi_drawer</li>
+<li><i class="xiv-NaviSearch"></i>NaviSearch</li>
+<li><i class="xiv-NaviInputClear"></i>NaviInputClear</li>
+<li><i class="xiv-app_drawer_setting"></i>app_drawer_setting</li>
+<li><i class="xiv-DrawerCustom"></i>DrawerCustom</li>
+<li><i class="xiv-DrawerDelete"></i>DrawerDelete</li>
+<li><i class="xiv-DrawerExit"></i>DrawerExit</li>
+<li><i class="xiv-ViewRefresh"></i>ViewRefresh</li>
+<li><i class="xiv-ViewLoad"></i>ViewLoad</li>
+<li><i class="xiv-app_view_list"></i>app_view_list</li>
+<li><i class="xiv-app_view_grid"></i>app_view_grid</li>
+<li><i class="xiv-ViewDetail"></i>ViewDetail</li>
+<li><i class="xiv-app_drawer_service"></i>app_drawer_service</li>
+<li><i class="xiv-app_drawer_news"></i>app_drawer_news</li>
+<li><i class="xiv-app_drawer_guide"></i>app_drawer_guide</li>
+<li><i class="xiv-app_drawer_qa"></i>app_drawer_qa</li>
+<li><i class="xiv-app_drawer_support"></i>app_drawer_support</li>
+<li><i class="xiv-app_drawer_edb"></i>app_drawer_edb</li>
+<li><i class="xiv-app_drawer_game_help"></i>app_drawer_game_help</li>
+<li><i class="xiv-app_notification_topics"></i>app_notification_topics</li>
+<li><i class="xiv-app_notification_notices"></i>app_notification_notices</li>
+<li><i class="xiv-app_notification_maintenance"></i>app_notification_maintenance</li>
+<li><i class="xiv-app_notification_updates"></i>app_notification_updates</li>
+<li><i class="xiv-app_notification_status"></i>app_notification_status</li>
+<li><i class="xiv-Chat"></i>Chat</li>
+<li><i class="xiv-app_chat_bg"></i>app_chat_bg</li>
+<li><i class="xiv-app_chat_bg_trim"></i>app_chat_bg_trim</li>
+<li><i class="xiv-app_chat_photo"></i>app_chat_photo</li>
+<li><i class="xiv-MessageSend"></i>MessageSend</li>
+<li><i class="xiv-app_chat_stamp"></i>app_chat_stamp</li>
+<li><i class="xiv-ChatReadOk"></i>ChatReadOk</li>
+<li><i class="xiv-ChatMute"></i>ChatMute</li>
+<li><i class="xiv-ChatQuote"></i>ChatQuote</li>
+<li><i class="xiv-ChatReadHidden"></i>ChatReadHidden</li>
+<li><i class="xiv-ChatDeleted"></i>ChatDeleted</li>
+<li><i class="xiv-Schedule"></i>Schedule</li>
+<li><i class="xiv-ScheduleAdd"></i>ScheduleAdd</li>
+<li><i class="xiv-ScheduleCancel"></i>ScheduleCancel</li>
+<li><i class="xiv-ScheduleTime"></i>ScheduleTime</li>
+<li><i class="xiv-ScheduleDetails"></i>ScheduleDetails</li>
+<li><i class="xiv-ScheduleMember"></i>ScheduleMember</li>
+<li><i class="xiv-ScheduleHistory"></i>ScheduleHistory</li>
+<li><i class="xiv-ScheduleShare"></i>ScheduleShare</li>
+<li><i class="xiv-Leader"></i>Leader</li>
+<li><i class="xiv-NotificationOn"></i>NotificationOn</li>
+<li><i class="xiv-NotificationOff"></i>NotificationOff</li>
+<li><i class="xiv-ScheduleAlerm"></i>ScheduleAlerm</li>
+<li><i class="xiv-CheckBoxOff"></i>CheckBoxOff</li>
+<li><i class="xiv-CheckBoxOn"></i>CheckBoxOn</li>
+<li><i class="xiv-CheckBoxClear"></i>CheckBoxClear</li>
+<li><i class="xiv-RadioButtonOff"></i>RadioButtonOff</li>
+<li><i class="xiv-RadioButtonOn"></i>RadioButtonOn</li>
+<li><i class="xiv-FormEdit"></i>FormEdit</li>
+<li><i class="xiv-CopyPaste"></i>CopyPaste</li>
+<li><i class="xiv-ItemBuyBack"></i>ItemBuyBack</li>
+<li><i class="xiv-Market"></i>Market</li>
+<li><i class="xiv-MarketLimit"></i>MarketLimit</li>
+<li><i class="xiv-MarketPurchase"></i>MarketPurchase</li>
+<li><i class="xiv-app_market_exhibit"></i>app_market_exhibit</li>
+<li><i class="xiv-PaymentCoin"></i>PaymentCoin</li>
+<li><i class="xiv-PaymentBuy"></i>PaymentBuy</li>
+<li><i class="xiv-app_payment_symbol"></i>app_payment_symbol</li>
+<li><i class="xiv-app_home_menu_inventory"></i>app_home_menu_inventory</li>
+<li><i class="xiv-app_home_menu_market_exhibit"></i>app_home_menu_market_exhibit</li>
+<li><i class="xiv-app_home_menu_market_purchase"></i>app_home_menu_market_purchase</li>
+<li><i class="xiv-app_home_command_ok"></i>app_home_command_ok</li>
+<li><i class="xiv-app_home_command_ng"></i>app_home_command_ng</li>
+<li><i class="xiv-app_home_command_limit"></i>app_home_command_limit</li>
+<li><i class="xiv-app_home_command_view"></i>app_home_command_view</li>
+<li><i class="xiv-SymbolAlert"></i>SymbolAlert</li>
+<li><i class="xiv-SymbolQuestion"></i>SymbolQuestion</li>
+<li><i class="xiv-SymbolCheck"></i>SymbolCheck</li>
+<li><i class="xiv-SymbolCross"></i>SymbolCross</li>
+<li><i class="xiv-SymbolMail"></i>SymbolMail</li>
+<li><i class="xiv-SymbolLock"></i>SymbolLock</li>
+<li><i class="xiv-ExternalLink"></i>ExternalLink</li>
+<li><i class="xiv-SquareBoxAlert"></i>SquareBoxAlert</li>
+<li><i class="xiv-SquareBoxQuestion"></i>SquareBoxQuestion</li>
+<li><i class="xiv-SquareBoxCheck"></i>SquareBoxCheck</li>
+<li><i class="xiv-SquareBoxCross"></i>SquareBoxCross</li>
+<li><i class="xiv-TriangleBoxAlert"></i>TriangleBoxAlert</li>
+<li><i class="xiv-SquareFrameCheck"></i>SquareFrameCheck</li>
+<li><i class="xiv-SymbolInformation"></i>SymbolInformation</li>
+<li><i class="xiv-app_symbol_info_circle"></i>app_symbol_info_circle</li>
+<li><i class="xiv-CircleCheck"></i>CircleCheck</li>
+<li><i class="xiv-SymbolMamet"></i>SymbolMamet</li>
+<li><i class="xiv-SymbolMoogle"></i>SymbolMoogle</li>
+<li><i class="xiv-SymbolAlarmClock"></i>SymbolAlarmClock</li>
+<li><i class="xiv-class_job_001"></i>class_job_001</li>
+<li><i class="xiv-class_job_002"></i>class_job_002</li>
+<li><i class="xiv-class_job_003"></i>class_job_003</li>
+<li><i class="xiv-class_job_004"></i>class_job_004</li>
+<li><i class="xiv-class_job_005"></i>class_job_005</li>
+<li><i class="xiv-class_job_006"></i>class_job_006</li>
+<li><i class="xiv-class_job_007"></i>class_job_007</li>
+<li><i class="xiv-class_job_008"></i>class_job_008</li>
+<li><i class="xiv-class_job_009"></i>class_job_009</li>
+<li><i class="xiv-class_job_010"></i>class_job_010</li>
+<li><i class="xiv-class_job_011"></i>class_job_011</li>
+<li><i class="xiv-class_job_012"></i>class_job_012</li>
+<li><i class="xiv-class_job_013"></i>class_job_013</li>
+<li><i class="xiv-class_job_014"></i>class_job_014</li>
+<li><i class="xiv-class_job_015"></i>class_job_015</li>
+<li><i class="xiv-class_job_016"></i>class_job_016</li>
+<li><i class="xiv-class_job_017"></i>class_job_017</li>
+<li><i class="xiv-class_job_018"></i>class_job_018</li>
+<li><i class="xiv-class_job_019"></i>class_job_019</li>
+<li><i class="xiv-class_job_020"></i>class_job_020</li>
+<li><i class="xiv-class_job_021"></i>class_job_021</li>
+<li><i class="xiv-class_job_022"></i>class_job_022</li>
+<li><i class="xiv-class_job_023"></i>class_job_023</li>
+<li><i class="xiv-class_job_024"></i>class_job_024</li>
+<li><i class="xiv-class_job_025"></i>class_job_025</li>
+<li><i class="xiv-class_job_026"></i>class_job_026</li>
+<li><i class="xiv-class_job_027"></i>class_job_027</li>
+<li><i class="xiv-class_job_028"></i>class_job_028</li>
+<li><i class="xiv-class_job_029"></i>class_job_029</li>
+<li><i class="xiv-class_job_030"></i>class_job_030</li>
+<li><i class="xiv-class_job_031"></i>class_job_031</li>
+<li><i class="xiv-class_job_032"></i>class_job_032</li>
+<li><i class="xiv-class_job_033"></i>class_job_033</li>
+<li><i class="xiv-class_job_034"></i>class_job_034</li>
+<li><i class="xiv-class_job_035"></i>class_job_035</li>
+<li><i class="xiv-class_job_036"></i>class_job_036</li>
+<li><i class="xiv-class_job_037"></i>class_job_037</li>
+<li><i class="xiv-class_job_038"></i>class_job_038</li>
+<li><i class="xiv-Armoury_MainArm"></i>Armoury_MainArm</li>
+<li><i class="xiv-Armoury_SubArm"></i>Armoury_SubArm</li>
+<li><i class="xiv-Armoury_Head"></i>Armoury_Head</li>
+<li><i class="xiv-Armoury_Body"></i>Armoury_Body</li>
+<li><i class="xiv-Armoury_Hands"></i>Armoury_Hands</li>
+<li><i class="xiv-Armoury_Waist"></i>Armoury_Waist</li>
+<li><i class="xiv-Armoury_Legs"></i>Armoury_Legs</li>
+<li><i class="xiv-Armoury_Feet"></i>Armoury_Feet</li>
+<li><i class="xiv-Armoury_Earrings"></i>Armoury_Earrings</li>
+<li><i class="xiv-Armoury_Necklace"></i>Armoury_Necklace</li>
+<li><i class="xiv-Armoury_Bracelets"></i>Armoury_Bracelets</li>
+<li><i class="xiv-Armoury_Ring"></i>Armoury_Ring</li>
+<li><i class="xiv-Armoury_SoulCrystal"></i>Armoury_SoulCrystal</li>
+<li><i class="xiv-ItemCategory_PGL"></i>ItemCategory_PGL</li>
+<li><i class="xiv-ItemCategory_GLA"></i>ItemCategory_GLA</li>
+<li><i class="xiv-ItemCategory_MRD"></i>ItemCategory_MRD</li>
+<li><i class="xiv-ItemCategory_LNC"></i>ItemCategory_LNC</li>
+<li><i class="xiv-ItemCategory_ARC"></i>ItemCategory_ARC</li>
+<li><i class="xiv-ItemCategory_ROG"></i>ItemCategory_ROG</li>
+<li><i class="xiv-ItemCategory_CNJ"></i>ItemCategory_CNJ</li>
+<li><i class="xiv-ItemCategory_THM"></i>ItemCategory_THM</li>
+<li><i class="xiv-ItemCategory_ACN"></i>ItemCategory_ACN</li>
+<li><i class="xiv-ItemCategory_Shield"></i>ItemCategory_Shield</li>
+<li><i class="xiv-ItemCategory_CRP"></i>ItemCategory_CRP</li>
+<li><i class="xiv-ItemCategory_BSM"></i>ItemCategory_BSM</li>
+<li><i class="xiv-ItemCategory_ARM"></i>ItemCategory_ARM</li>
+<li><i class="xiv-ItemCategory_GSM"></i>ItemCategory_GSM</li>
+<li><i class="xiv-ItemCategory_LTW"></i>ItemCategory_LTW</li>
+<li><i class="xiv-ItemCategory_WVR"></i>ItemCategory_WVR</li>
+<li><i class="xiv-ItemCategory_ALC"></i>ItemCategory_ALC</li>
+<li><i class="xiv-ItemCategory_CUL"></i>ItemCategory_CUL</li>
+<li><i class="xiv-ItemCategory_MIN"></i>ItemCategory_MIN</li>
+<li><i class="xiv-ItemCategory_BTN"></i>ItemCategory_BTN</li>
+<li><i class="xiv-ItemCategory_fisher"></i>ItemCategory_fisher</li>
+<li><i class="xiv-ItemCategory_Fishing_Tackle"></i>ItemCategory_Fishing_Tackle</li>
+<li><i class="xiv-ItemCategory_Medicine"></i>ItemCategory_Medicine</li>
+<li><i class="xiv-ItemCategory_Bone"></i>ItemCategory_Bone</li>
+<li><i class="xiv-ItemCategory_Meal"></i>ItemCategory_Meal</li>
+<li><i class="xiv-ItemCategory_Dye"></i>ItemCategory_Dye</li>
+<li><i class="xiv-ItemCategory_Part"></i>ItemCategory_Part</li>
+<li><i class="xiv-ItemCategory_Furnishing"></i>ItemCategory_Furnishing</li>
+<li><i class="xiv-ItemCategory_Materia"></i>ItemCategory_Materia</li>
+<li><i class="xiv-ItemCategory_Crystal"></i>ItemCategory_Crystal</li>
+<li><i class="xiv-ItemCategory_Catalyst"></i>ItemCategory_Catalyst</li>
+<li><i class="xiv-ItemCategory_Miscellany"></i>ItemCategory_Miscellany</li>
+<li><i class="xiv-ItemCategory_Seasonal_Miscellany"></i>ItemCategory_Seasonal_Miscellany</li>
+<li><i class="xiv-ItemCategory_Minion"></i>ItemCategory_Minion</li>
+<li><i class="xiv-ItemCategory_Triple_Triad_Card"></i>ItemCategory_Triple_Triad_Card</li>
+<li><i class="xiv-ItemCategory_Soul_Crystal"></i>ItemCategory_Soul_Crystal</li>
+<li><i class="xiv-ItemCategory_Other"></i>ItemCategory_Other</li>
+<li><i class="xiv-ItemCategory_Exterior_Fixtures"></i>ItemCategory_Exterior_Fixtures</li>
+<li><i class="xiv-ItemCategory_Interior_Fixtures"></i>ItemCategory_Interior_Fixtures</li>
+<li><i class="xiv-ItemCategory_Tables"></i>ItemCategory_Tables</li>
+<li><i class="xiv-ItemCategory_Tabletop"></i>ItemCategory_Tabletop</li>
+<li><i class="xiv-ItemCategory_Furnishings"></i>ItemCategory_Furnishings</li>
+<li><i class="xiv-ItemCategory_Chairs_and_Beds"></i>ItemCategory_Chairs_and_Beds</li>
+<li><i class="xiv-ItemCategory_Wallmounted"></i>ItemCategory_Wallmounted</li>
+<li><i class="xiv-ItemCategory_Rug"></i>ItemCategory_Rug</li>
+<li><i class="xiv-ItemCategory_Outdoor_Furnishings"></i>ItemCategory_Outdoor_Furnishings</li>
+<li><i class="xiv-ItemCategory_Airship"></i>ItemCategory_Airship</li>
+<li><i class="xiv-ItemCategory_DRK"></i>ItemCategory_DRK</li>
+<li><i class="xiv-ItemCategory_AST"></i>ItemCategory_AST</li>
+<li><i class="xiv-ItemCategory_MCH"></i>ItemCategory_MCH</li>
+<li><i class="xiv-ItemCategory_Orchestrion_Roll"></i>ItemCategory_Orchestrion_Roll</li>
+<li><i class="xiv-ItemCategory_Gardening"></i>ItemCategory_Gardening</li>
+<li><i class="xiv-ItemCategory_Painting"></i>ItemCategory_Painting</li>
+<li><i class="xiv-ItemCategory_RDM"></i>ItemCategory_RDM</li>
+<li><i class="xiv-ItemCategory_SAM"></i>ItemCategory_SAM</li>
+<li><i class="xiv-ItemCategory_SCH"></i>ItemCategory_SCH</li>
+<li><i class="xiv-ItemCategory_BLU"></i>ItemCategory_BLU</li>
+<li><i class="xiv-ItemAll"></i>ItemAll</li>
+<li><i class="xiv-Bag"></i>Bag</li>
+<li><i class="xiv-ArmoryChest"></i>ArmoryChest</li>
+<li><i class="xiv-Gil"></i>Gil</li>
+<li><i class="xiv-Retainer"></i>Retainer</li>
+<li><i class="xiv-ChocoboStorage"></i>ChocoboStorage</li>
+<li><i class="xiv-ItemShard"></i>ItemShard</li>
+<li><i class="xiv-TrashCan"></i>TrashCan</li>
+<li><i class="xiv-Wallet"></i>Wallet</li>
+<li><i class="xiv-CharaChange"></i>CharaChange</li>
+<li><i class="xiv-CommandIn"></i>CommandIn</li>
+<li><i class="xiv-CommandChange"></i>CommandChange</li>
+<li><i class="xiv-CommandAdd"></i>CommandAdd</li>
+<li><i class="xiv-MarketFilter"></i>MarketFilter</li>
+<li><i class="xiv-MarketSort"></i>MarketSort</li>
+<li><i class="xiv-item_command_move_ac"></i>item_command_move_ac</li>
+<li><i class="xiv-ListView"></i>ListView</li>
+<li><i class="xiv-RoundArrowUp"></i>RoundArrowUp</li>
+<li><i class="xiv-RoundArrowDown"></i>RoundArrowDown</li>
+<li><i class="xiv-RoundArrowRight"></i>RoundArrowRight</li>
+<li><i class="xiv-TradeUp"></i>TradeUp</li>
+<li><i class="xiv-TradeDown"></i>TradeDown</li>
+<li><i class="xiv-MoogleBasket"></i>MoogleBasket</li>
+<li><i class="xiv-GlamoursBase"></i>GlamoursBase</li>
+<li><i class="xiv-GlamoursColor"></i>GlamoursColor</li>
+<li><i class="xiv-GlamoursNullBase"></i>GlamoursNullBase</li>
+<li><i class="xiv-GlamoursNullColor"></i>GlamoursNullColor</li>
+<li><i class="xiv-PaintBorder"></i>PaintBorder</li>
+<li><i class="xiv-PaintColor"></i>PaintColor</li>
+<li><i class="xiv-PaintBorderLarge"></i>PaintBorderLarge</li>
+<li><i class="xiv-PaintColorLarge"></i>PaintColorLarge</li>
+<li><i class="xiv-item_signature"></i>item_signature</li>
+<li><i class="xiv-StorageCharacter"></i>StorageCharacter</li>
+<li><i class="xiv-SquareNo01"></i>SquareNo01</li>
+<li><i class="xiv-SquareNo02"></i>SquareNo02</li>
+<li><i class="xiv-SquareNo03"></i>SquareNo03</li>
+<li><i class="xiv-SquareNo04"></i>SquareNo04</li>
+<li><i class="xiv-SquareNo05"></i>SquareNo05</li>
+<li><i class="xiv-SquareNo06"></i>SquareNo06</li>
+<li><i class="xiv-SquareNo07"></i>SquareNo07</li>
+<li><i class="xiv-SquareNo08"></i>SquareNo08</li>
+<li><i class="xiv-SquareNo09"></i>SquareNo09</li>
+<li><i class="xiv-SquareNo10"></i>SquareNo10</li>
+<li><i class="xiv-ChocoboStorage1"></i>ChocoboStorage1</li>
+<li><i class="xiv-ChocoboStorage2"></i>ChocoboStorage2</li>
+<li><i class="xiv-CharacterEmpty"></i>CharacterEmpty</li>
 
 </ul>
 

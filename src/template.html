@@ -11,10 +11,6 @@
         font-family: Arial, Helvetica, sans-serif;
     }
 
-    .xivicon {
-        font-family: xivicon !important;
-    }
-
     ul {
         display: flex;
         flex-wrap: wrap;
@@ -34,25 +30,25 @@
         color: #444;
         border-radius: 3px;
     }
-    ul li icon {
+    ul li i {
         display: block;
         font-size: 50px;
     }
 
     @font-face {
-        font-family: 'xivicon';
-        src: url('FFXIVAppIcons.eot');
-        src: url('FFXIVAppIcons.eot?#iefix') format('embedded-opentype'),
-             url('FFXIVAppIcons.woff') format('woff'),
-             url('FFXIVAppIcons.ttf') format('truetype'),
-             url('FFXIVAppIcons.svg#FFXIVAppIcons') format('svg');
+        font-family: 'xivicons';
+        src: url('./FFXIVAppIcons.eot');
+        src: url('./FFXIVAppIcons.eot?#iefix') format('embedded-opentype'),
+        url('./FFXIVAppIcons.woff') format('woff'),
+        url('./FFXIVAppIcons.ttf') format('truetype'),
+        url('./FFXIVAppIcons.svg#FFXIVAppIcons') format('svg');
         font-weight: normal;
         font-style: normal;
     }
 
-    [class*='icon-']:before{
+    [class*='xiv-']:before{
         display: inline-block;
-        font-family: 'xivicon';
+        font-family: 'xivicons';
         font-style: normal;
         font-weight: normal;
         line-height: 1;

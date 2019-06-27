@@ -5,6 +5,11 @@
  * run: php converter.php
  */
 
+// remove these if they exist
+@unlink(__DIR__.'/xivicon.css');
+@unlink(__DIR__.'/xivicon.html');
+@unlink(__DIR__.'/xivicon.json');
+
 // parse SVG
 $xml = file_get_contents(__DIR__.'/FFXIVAppIcons.svg');
 $xml = new SimpleXMLElement($xml);
@@ -31,17 +36,15 @@ foreach ($json->defs->font->glyph as $glyph) {
     $codes[$name] = str_ireplace("\\u", "", json_encode($attr->unicode));
 }
 
-// remove these if they exist
-@unlink(__DIR__.'/xivicon.css');
-@unlink(__DIR__.'/xivicon.html');
+
 
 // write out CSS + HTML
 $html = [];
 $css = [];
 foreach ($codes as $name => $code) {
     $code     = json_decode($code);
-    $cssLine  = ".icon-{$name}:before{content:'\\". $code ."';}\n";
-    $htmlLine = "<li><icon class=\"xivicon icon-{$name}\"></icon>{$name}</li>\n";
+    $cssLine  = ".xiv-{$name}:before{content:'\\". $code ."';}\n";
+    $htmlLine = "<li><i class=\"xiv-{$name}\"></i>{$name}</li>\n";
 
     file_put_contents(__DIR__.'/xivicon.css', $cssLine, FILE_APPEND);
     file_put_contents(__DIR__.'/xivicon.html', $htmlLine, FILE_APPEND);
