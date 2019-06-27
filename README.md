@@ -10,3 +10,14 @@ Included are:
 - `companion/*` icons from the Companion App
 
 ![SpriteSheet](classjobs_sprite.png)
+
+## Updating
+
+- Grab the `FFXIVAppIcons.tff` file from the companion app, then you need to convert it
+  - `svg`, `woff`, `otf` https://convertio.co/ttf-svg/
+  - `eot` https://everythingfonts.com/ttf-to-eot
+
+- Copy the the converted files into `src`
+- Run: `converter.php` to build the font-file CSS/HTML
+- Run: `svg_rip.js` to build SVG Rips.
+  - This requires node, run `npm install` inside `/src` to get the module we use (`font-blast`)
