@@ -1,3 +1,5 @@
 src/node_modules
 src/FFXIVAppIcons
+src/package.json
+src/package-lock.json
 .idea

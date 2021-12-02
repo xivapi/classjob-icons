@@ -84,6 +84,8 @@
 .xiv-NaviBottom:before{content:'\e103';}
 .xiv-NaviArrowLeft:before{content:'\e110';}
 .xiv-NaviArrowRight:before{content:'\e111';}
+.xiv-app_action_paging_prev:before{content:'\e112';}
+.xiv-app_action_paging_next:before{content:'\e113';}
 .xiv-NavigationClose:before{content:'\e120';}
 .xiv-Add:before{content:'\e121';}
 .xiv-app_action_block_open:before{content:'\e122';}
@@ -91,14 +93,20 @@
 .xiv-app_status_online:before{content:'\e150';}
 .xiv-app_status_contents:before{content:'\e151';}
 .xiv-app_status_loading:before{content:'\e152';}
+.xiv-app_online_unknown:before{content:'\e161';}
 .xiv-NaviMenu:before{content:'\e200';}
 .xiv-app_navi_drawer:before{content:'\e201';}
+.xiv-app_navi_paste:before{content:'\e202';}
+.xiv-app_navi_menu_dot:before{content:'\e204';}
 .xiv-NaviSearch:before{content:'\e210';}
 .xiv-NaviInputClear:before{content:'\e211';}
 .xiv-app_drawer_setting:before{content:'\e220';}
 .xiv-DrawerCustom:before{content:'\e221';}
 .xiv-DrawerDelete:before{content:'\e230';}
 .xiv-DrawerExit:before{content:'\e231';}
+.xiv-app_drawer_sort_online:before{content:'\e232';}
+.xiv-app_drawer_sort_user:before{content:'\e233';}
+.xiv-app_drawer_character_change:before{content:'\e234';}
 .xiv-ViewRefresh:before{content:'\e240';}
 .xiv-ViewLoad:before{content:'\e241';}
 .xiv-app_view_list:before{content:'\e250';}
@@ -111,6 +119,7 @@
 .xiv-app_drawer_support:before{content:'\e265';}
 .xiv-app_drawer_edb:before{content:'\e266';}
 .xiv-app_drawer_game_help:before{content:'\e267';}
+.xiv-app_drawer_patchnote:before{content:'\e268';}
 .xiv-app_notification_topics:before{content:'\e271';}
 .xiv-app_notification_notices:before{content:'\e272';}
 .xiv-app_notification_maintenance:before{content:'\e273';}
@@ -127,6 +136,27 @@
 .xiv-ChatQuote:before{content:'\e322';}
 .xiv-ChatReadHidden:before{content:'\e323';}
 .xiv-ChatDeleted:before{content:'\e324';}
+.xiv-app_fellow:before{content:'\e350';}
+.xiv-app_fellow_search:before{content:'\e351';}
+.xiv-app_fellow_detail:before{content:'\e352';}
+.xiv-app_fellow_board:before{content:'\e353';}
+.xiv-app_fellow_member:before{content:'\e354';}
+.xiv-app_fellow_member_master:before{content:'\e355';}
+.xiv-app_fellow_member_admin:before{content:'\e356';}
+.xiv-app_fellow_manage_master:before{content:'\e357';}
+.xiv-app_fellow_manage_recruiter:before{content:'\e358';}
+.xiv-app_fellow_topic:before{content:'\e361';}
+.xiv-app_fellow_question:before{content:'\e362';}
+.xiv-app_fellow_memo:before{content:'\e363';}
+.xiv-app_fellow_activity:before{content:'\e364';}
+.xiv-app_fellow_question_active:before{content:'\e371';}
+.xiv-app_fellow_question_none:before{content:'\e372';}
+.xiv-app_fellow_question_vote:before{content:'\e373';}
+.xiv-app_fellow_question_most:before{content:'\e374';}
+.xiv-app_fellow_recruit_joined:before{content:'\e381';}
+.xiv-app_fellow_recruit_message:before{content:'\e382';}
+.xiv-app_fellow_recruit_info:before{content:'\e383';}
+.xiv-app_fellow_recruit_language:before{content:'\e384';}
 .xiv-Schedule:before{content:'\e400';}
 .xiv-ScheduleAdd:before{content:'\e402';}
 .xiv-ScheduleCancel:before{content:'\e403';}
@@ -139,6 +169,9 @@
 .xiv-NotificationOn:before{content:'\e450';}
 .xiv-NotificationOff:before{content:'\e451';}
 .xiv-ScheduleAlerm:before{content:'\e452';}
+.xiv-app_schedule_repeat_parent:before{content:'\e461';}
+.xiv-app_schedule_repeat_child:before{content:'\e462';}
+.xiv-app_schedule_single:before{content:'\e463';}
 .xiv-CheckBoxOff:before{content:'\e500';}
 .xiv-CheckBoxOn:before{content:'\e501';}
 .xiv-CheckBoxClear:before{content:'\e503';}
@@ -151,9 +184,13 @@
 .xiv-MarketLimit:before{content:'\e702';}
 .xiv-MarketPurchase:before{content:'\e703';}
 .xiv-app_market_exhibit:before{content:'\e704';}
+.xiv-app_market_notification_alert:before{content:'\e705';}
 .xiv-PaymentCoin:before{content:'\e800';}
-.xiv-PaymentBuy:before{content:'\e801';}
+.xiv-app_market_purchase:before{content:'\e801';}
 .xiv-app_payment_symbol:before{content:'\e802';}
+.xiv-app_home_menu_community:before{content:'\e841';}
+.xiv-app_home_menu_schedule:before{content:'\e842';}
+.xiv-app_home_menu_address:before{content:'\e843';}
 .xiv-app_home_menu_inventory:before{content:'\e844';}
 .xiv-app_home_menu_market_exhibit:before{content:'\e845';}
 .xiv-app_home_menu_market_purchase:before{content:'\e846';}
@@ -176,10 +213,11 @@
 .xiv-SquareFrameCheck:before{content:'\e922';}
 .xiv-SymbolInformation:before{content:'\e930';}
 .xiv-app_symbol_info_circle:before{content:'\e931';}
-.xiv-CircleCheck:before{content:'\e932';}
+.xiv-app_symbol_check_circle:before{content:'\e932';}
 .xiv-SymbolMamet:before{content:'\e951';}
 .xiv-SymbolMoogle:before{content:'\e952';}
 .xiv-SymbolAlarmClock:before{content:'\e953';}
+.xiv-app_symbol_dc:before{content:'\e956';}
 .xiv-class_job_001:before{content:'\f001';}
 .xiv-class_job_002:before{content:'\f002';}
 .xiv-class_job_003:before{content:'\f003';}
@@ -304,13 +342,14 @@
 .xiv-MarketFilter:before{content:'\f214';}
 .xiv-MarketSort:before{content:'\f215';}
 .xiv-item_command_move_ac:before{content:'\f216';}
+.xiv-item_command_merge:before{content:'\f218';}
 .xiv-ListView:before{content:'\f219';}
 .xiv-RoundArrowUp:before{content:'\f221';}
 .xiv-RoundArrowDown:before{content:'\f222';}
 .xiv-RoundArrowRight:before{content:'\f223';}
 .xiv-TradeUp:before{content:'\f224';}
 .xiv-TradeDown:before{content:'\f225';}
-.xiv-MoogleBasket:before{content:'\f226';}
+.xiv-item_storage_search:before{content:'\f226';}
 .xiv-GlamoursBase:before{content:'\f231';}
 .xiv-GlamoursColor:before{content:'\f232';}
 .xiv-GlamoursNullBase:before{content:'\f233';}
@@ -334,6 +373,37 @@
 .xiv-ChocoboStorage1:before{content:'\f331';}
 .xiv-ChocoboStorage2:before{content:'\f332';}
 .xiv-CharacterEmpty:before{content:'\f341';}
+.xiv-fellow_activity_00:before{content:'\f400';}
+.xiv-fellow_activity_01:before{content:'\f401';}
+.xiv-fellow_activity_02:before{content:'\f402';}
+.xiv-fellow_activity_03:before{content:'\f403';}
+.xiv-fellow_activity_04:before{content:'\f404';}
+.xiv-fellow_activity_05:before{content:'\f405';}
+.xiv-fellow_activity_06:before{content:'\f406';}
+.xiv-fellow_activity_07:before{content:'\f407';}
+.xiv-fellow_activity_08:before{content:'\f408';}
+.xiv-fellow_activity_09:before{content:'\f409';}
+.xiv-fellow_activity_10:before{content:'\f410';}
+.xiv-fellow_activity_11:before{content:'\f411';}
+.xiv-fellow_activity_12:before{content:'\f412';}
+.xiv-fellow_activity_13:before{content:'\f413';}
+.xiv-fellow_activity_14:before{content:'\f414';}
+.xiv-fellow_activity_15:before{content:'\f415';}
+.xiv-fellow_activity_16:before{content:'\f416';}
+.xiv-fellow_activity_17:before{content:'\f417';}
+.xiv-fellow_activity_18:before{content:'\f418';}
+.xiv-fellow_activity_19:before{content:'\f419';}
+.xiv-fellow_activity_20:before{content:'\f420';}
+.xiv-fellow_activity_21:before{content:'\f421';}
+.xiv-fellow_activity_22:before{content:'\f422';}
+.xiv-fellow_emote_00:before{content:'\f500';}
+.xiv-fellow_emote_01:before{content:'\f501';}
+.xiv-fellow_emote_02:before{content:'\f502';}
+.xiv-fellow_emote_03:before{content:'\f503';}
+.xiv-fellow_emote_04:before{content:'\f504';}
+.xiv-fellow_emote_05:before{content:'\f505';}
+.xiv-fellow_emote_06:before{content:'\f506';}
+.xiv-fellow_emote_07:before{content:'\f507';}
 
 </style>
 </head>
@@ -375,6 +445,8 @@
 <li><i class="xiv-NaviBottom"></i>NaviBottom</li>
 <li><i class="xiv-NaviArrowLeft"></i>NaviArrowLeft</li>
 <li><i class="xiv-NaviArrowRight"></i>NaviArrowRight</li>
+<li><i class="xiv-app_action_paging_prev"></i>app_action_paging_prev</li>
+<li><i class="xiv-app_action_paging_next"></i>app_action_paging_next</li>
 <li><i class="xiv-NavigationClose"></i>NavigationClose</li>
 <li><i class="xiv-Add"></i>Add</li>
 <li><i class="xiv-app_action_block_open"></i>app_action_block_open</li>
@@ -382,14 +454,20 @@
 <li><i class="xiv-app_status_online"></i>app_status_online</li>
 <li><i class="xiv-app_status_contents"></i>app_status_contents</li>
 <li><i class="xiv-app_status_loading"></i>app_status_loading</li>
+<li><i class="xiv-app_online_unknown"></i>app_online_unknown</li>
 <li><i class="xiv-NaviMenu"></i>NaviMenu</li>
 <li><i class="xiv-app_navi_drawer"></i>app_navi_drawer</li>
+<li><i class="xiv-app_navi_paste"></i>app_navi_paste</li>
+<li><i class="xiv-app_navi_menu_dot"></i>app_navi_menu_dot</li>
 <li><i class="xiv-NaviSearch"></i>NaviSearch</li>
 <li><i class="xiv-NaviInputClear"></i>NaviInputClear</li>
 <li><i class="xiv-app_drawer_setting"></i>app_drawer_setting</li>
 <li><i class="xiv-DrawerCustom"></i>DrawerCustom</li>
 <li><i class="xiv-DrawerDelete"></i>DrawerDelete</li>
 <li><i class="xiv-DrawerExit"></i>DrawerExit</li>
+<li><i class="xiv-app_drawer_sort_online"></i>app_drawer_sort_online</li>
+<li><i class="xiv-app_drawer_sort_user"></i>app_drawer_sort_user</li>
+<li><i class="xiv-app_drawer_character_change"></i>app_drawer_character_change</li>
 <li><i class="xiv-ViewRefresh"></i>ViewRefresh</li>
 <li><i class="xiv-ViewLoad"></i>ViewLoad</li>
 <li><i class="xiv-app_view_list"></i>app_view_list</li>
@@ -402,6 +480,7 @@
 <li><i class="xiv-app_drawer_support"></i>app_drawer_support</li>
 <li><i class="xiv-app_drawer_edb"></i>app_drawer_edb</li>
 <li><i class="xiv-app_drawer_game_help"></i>app_drawer_game_help</li>
+<li><i class="xiv-app_drawer_patchnote"></i>app_drawer_patchnote</li>
 <li><i class="xiv-app_notification_topics"></i>app_notification_topics</li>
 <li><i class="xiv-app_notification_notices"></i>app_notification_notices</li>
 <li><i class="xiv-app_notification_maintenance"></i>app_notification_maintenance</li>
@@ -418,6 +497,27 @@
 <li><i class="xiv-ChatQuote"></i>ChatQuote</li>
 <li><i class="xiv-ChatReadHidden"></i>ChatReadHidden</li>
 <li><i class="xiv-ChatDeleted"></i>ChatDeleted</li>
+<li><i class="xiv-app_fellow"></i>app_fellow</li>
+<li><i class="xiv-app_fellow_search"></i>app_fellow_search</li>
+<li><i class="xiv-app_fellow_detail"></i>app_fellow_detail</li>
+<li><i class="xiv-app_fellow_board"></i>app_fellow_board</li>
+<li><i class="xiv-app_fellow_member"></i>app_fellow_member</li>
+<li><i class="xiv-app_fellow_member_master"></i>app_fellow_member_master</li>
+<li><i class="xiv-app_fellow_member_admin"></i>app_fellow_member_admin</li>
+<li><i class="xiv-app_fellow_manage_master"></i>app_fellow_manage_master</li>
+<li><i class="xiv-app_fellow_manage_recruiter"></i>app_fellow_manage_recruiter</li>
+<li><i class="xiv-app_fellow_topic"></i>app_fellow_topic</li>
+<li><i class="xiv-app_fellow_question"></i>app_fellow_question</li>
+<li><i class="xiv-app_fellow_memo"></i>app_fellow_memo</li>
+<li><i class="xiv-app_fellow_activity"></i>app_fellow_activity</li>
+<li><i class="xiv-app_fellow_question_active"></i>app_fellow_question_active</li>
+<li><i class="xiv-app_fellow_question_none"></i>app_fellow_question_none</li>
+<li><i class="xiv-app_fellow_question_vote"></i>app_fellow_question_vote</li>
+<li><i class="xiv-app_fellow_question_most"></i>app_fellow_question_most</li>
+<li><i class="xiv-app_fellow_recruit_joined"></i>app_fellow_recruit_joined</li>
+<li><i class="xiv-app_fellow_recruit_message"></i>app_fellow_recruit_message</li>
+<li><i class="xiv-app_fellow_recruit_info"></i>app_fellow_recruit_info</li>
+<li><i class="xiv-app_fellow_recruit_language"></i>app_fellow_recruit_language</li>
 <li><i class="xiv-Schedule"></i>Schedule</li>
 <li><i class="xiv-ScheduleAdd"></i>ScheduleAdd</li>
 <li><i class="xiv-ScheduleCancel"></i>ScheduleCancel</li>
@@ -430,6 +530,9 @@
 <li><i class="xiv-NotificationOn"></i>NotificationOn</li>
 <li><i class="xiv-NotificationOff"></i>NotificationOff</li>
 <li><i class="xiv-ScheduleAlerm"></i>ScheduleAlerm</li>
+<li><i class="xiv-app_schedule_repeat_parent"></i>app_schedule_repeat_parent</li>
+<li><i class="xiv-app_schedule_repeat_child"></i>app_schedule_repeat_child</li>
+<li><i class="xiv-app_schedule_single"></i>app_schedule_single</li>
 <li><i class="xiv-CheckBoxOff"></i>CheckBoxOff</li>
 <li><i class="xiv-CheckBoxOn"></i>CheckBoxOn</li>
 <li><i class="xiv-CheckBoxClear"></i>CheckBoxClear</li>
@@ -442,9 +545,13 @@
 <li><i class="xiv-MarketLimit"></i>MarketLimit</li>
 <li><i class="xiv-MarketPurchase"></i>MarketPurchase</li>
 <li><i class="xiv-app_market_exhibit"></i>app_market_exhibit</li>
+<li><i class="xiv-app_market_notification_alert"></i>app_market_notification_alert</li>
 <li><i class="xiv-PaymentCoin"></i>PaymentCoin</li>
-<li><i class="xiv-PaymentBuy"></i>PaymentBuy</li>
+<li><i class="xiv-app_market_purchase"></i>app_market_purchase</li>
 <li><i class="xiv-app_payment_symbol"></i>app_payment_symbol</li>
+<li><i class="xiv-app_home_menu_community"></i>app_home_menu_community</li>
+<li><i class="xiv-app_home_menu_schedule"></i>app_home_menu_schedule</li>
+<li><i class="xiv-app_home_menu_address"></i>app_home_menu_address</li>
 <li><i class="xiv-app_home_menu_inventory"></i>app_home_menu_inventory</li>
 <li><i class="xiv-app_home_menu_market_exhibit"></i>app_home_menu_market_exhibit</li>
 <li><i class="xiv-app_home_menu_market_purchase"></i>app_home_menu_market_purchase</li>
@@ -467,10 +574,11 @@
 <li><i class="xiv-SquareFrameCheck"></i>SquareFrameCheck</li>
 <li><i class="xiv-SymbolInformation"></i>SymbolInformation</li>
 <li><i class="xiv-app_symbol_info_circle"></i>app_symbol_info_circle</li>
-<li><i class="xiv-CircleCheck"></i>CircleCheck</li>
+<li><i class="xiv-app_symbol_check_circle"></i>app_symbol_check_circle</li>
 <li><i class="xiv-SymbolMamet"></i>SymbolMamet</li>
 <li><i class="xiv-SymbolMoogle"></i>SymbolMoogle</li>
 <li><i class="xiv-SymbolAlarmClock"></i>SymbolAlarmClock</li>
+<li><i class="xiv-app_symbol_dc"></i>app_symbol_dc</li>
 <li><i class="xiv-class_job_001"></i>class_job_001</li>
 <li><i class="xiv-class_job_002"></i>class_job_002</li>
 <li><i class="xiv-class_job_003"></i>class_job_003</li>
@@ -595,13 +703,14 @@
 <li><i class="xiv-MarketFilter"></i>MarketFilter</li>
 <li><i class="xiv-MarketSort"></i>MarketSort</li>
 <li><i class="xiv-item_command_move_ac"></i>item_command_move_ac</li>
+<li><i class="xiv-item_command_merge"></i>item_command_merge</li>
 <li><i class="xiv-ListView"></i>ListView</li>
 <li><i class="xiv-RoundArrowUp"></i>RoundArrowUp</li>
 <li><i class="xiv-RoundArrowDown"></i>RoundArrowDown</li>
 <li><i class="xiv-RoundArrowRight"></i>RoundArrowRight</li>
 <li><i class="xiv-TradeUp"></i>TradeUp</li>
 <li><i class="xiv-TradeDown"></i>TradeDown</li>
-<li><i class="xiv-MoogleBasket"></i>MoogleBasket</li>
+<li><i class="xiv-item_storage_search"></i>item_storage_search</li>
 <li><i class="xiv-GlamoursBase"></i>GlamoursBase</li>
 <li><i class="xiv-GlamoursColor"></i>GlamoursColor</li>
 <li><i class="xiv-GlamoursNullBase"></i>GlamoursNullBase</li>
@@ -625,6 +734,37 @@
 <li><i class="xiv-ChocoboStorage1"></i>ChocoboStorage1</li>
 <li><i class="xiv-ChocoboStorage2"></i>ChocoboStorage2</li>
 <li><i class="xiv-CharacterEmpty"></i>CharacterEmpty</li>
+<li><i class="xiv-fellow_activity_00"></i>fellow_activity_00</li>
+<li><i class="xiv-fellow_activity_01"></i>fellow_activity_01</li>
+<li><i class="xiv-fellow_activity_02"></i>fellow_activity_02</li>
+<li><i class="xiv-fellow_activity_03"></i>fellow_activity_03</li>
+<li><i class="xiv-fellow_activity_04"></i>fellow_activity_04</li>
+<li><i class="xiv-fellow_activity_05"></i>fellow_activity_05</li>
+<li><i class="xiv-fellow_activity_06"></i>fellow_activity_06</li>
+<li><i class="xiv-fellow_activity_07"></i>fellow_activity_07</li>
+<li><i class="xiv-fellow_activity_08"></i>fellow_activity_08</li>
+<li><i class="xiv-fellow_activity_09"></i>fellow_activity_09</li>
+<li><i class="xiv-fellow_activity_10"></i>fellow_activity_10</li>
+<li><i class="xiv-fellow_activity_11"></i>fellow_activity_11</li>
+<li><i class="xiv-fellow_activity_12"></i>fellow_activity_12</li>
+<li><i class="xiv-fellow_activity_13"></i>fellow_activity_13</li>
+<li><i class="xiv-fellow_activity_14"></i>fellow_activity_14</li>
+<li><i class="xiv-fellow_activity_15"></i>fellow_activity_15</li>
+<li><i class="xiv-fellow_activity_16"></i>fellow_activity_16</li>
+<li><i class="xiv-fellow_activity_17"></i>fellow_activity_17</li>
+<li><i class="xiv-fellow_activity_18"></i>fellow_activity_18</li>
+<li><i class="xiv-fellow_activity_19"></i>fellow_activity_19</li>
+<li><i class="xiv-fellow_activity_20"></i>fellow_activity_20</li>
+<li><i class="xiv-fellow_activity_21"></i>fellow_activity_21</li>
+<li><i class="xiv-fellow_activity_22"></i>fellow_activity_22</li>
+<li><i class="xiv-fellow_emote_00"></i>fellow_emote_00</li>
+<li><i class="xiv-fellow_emote_01"></i>fellow_emote_01</li>
+<li><i class="xiv-fellow_emote_02"></i>fellow_emote_02</li>
+<li><i class="xiv-fellow_emote_03"></i>fellow_emote_03</li>
+<li><i class="xiv-fellow_emote_04"></i>fellow_emote_04</li>
+<li><i class="xiv-fellow_emote_05"></i>fellow_emote_05</li>
+<li><i class="xiv-fellow_emote_06"></i>fellow_emote_06</li>
+<li><i class="xiv-fellow_emote_07"></i>fellow_emote_07</li>
 
 </ul>
 
