@@ -131,11 +131,16 @@
 .xiv-app_chat_photo:before{content:'\e305';}
 .xiv-MessageSend:before{content:'\e310';}
 .xiv-app_chat_stamp:before{content:'\e311';}
+.xiv-app_reaction_template:before{content:'\e313';}
+.xiv-app_reaction_emoji_add:before{content:'\e314';}
+.xiv-app_reaction_template_add:before{content:'\e315';}
+.xiv-app_reaction_list:before{content:'\e316';}
 .xiv-ChatReadOk:before{content:'\e320';}
 .xiv-ChatMute:before{content:'\e321';}
 .xiv-ChatQuote:before{content:'\e322';}
 .xiv-ChatReadHidden:before{content:'\e323';}
 .xiv-ChatDeleted:before{content:'\e324';}
+.xiv-app_fc_chat_feature2:before{content:'\e341';}
 .xiv-app_fellow:before{content:'\e350';}
 .xiv-app_fellow_search:before{content:'\e351';}
 .xiv-app_fellow_detail:before{content:'\e352';}
@@ -256,6 +261,8 @@
 .xiv-class_job_036:before{content:'\f036';}
 .xiv-class_job_037:before{content:'\f037';}
 .xiv-class_job_038:before{content:'\f038';}
+.xiv-class_job_039:before{content:'\f039';}
+.xiv-class_job_040:before{content:'\f040';}
 .xiv-Armoury_MainArm:before{content:'\f081';}
 .xiv-Armoury_SubArm:before{content:'\f082';}
 .xiv-Armoury_Head:before{content:'\f083';}
@@ -359,6 +366,7 @@
 .xiv-PaintBorderLarge:before{content:'\f237';}
 .xiv-PaintColorLarge:before{content:'\f238';}
 .xiv-item_signature:before{content:'\f239';}
+.xiv-item_stain_condition:before{content:'\f240';}
 .xiv-StorageCharacter:before{content:'\f300';}
 .xiv-SquareNo01:before{content:'\f301';}
 .xiv-SquareNo02:before{content:'\f302';}
@@ -404,6 +412,17 @@
 .xiv-fellow_emote_05:before{content:'\f505';}
 .xiv-fellow_emote_06:before{content:'\f506';}
 .xiv-fellow_emote_07:before{content:'\f507';}
+.xiv-reaction_emoji_category_00:before{content:'\f600';}
+.xiv-reaction_emoji_category_01:before{content:'\f601';}
+.xiv-reaction_emoji_category_02:before{content:'\f602';}
+.xiv-reaction_emoji_category_03:before{content:'\f603';}
+.xiv-reaction_emoji_category_04:before{content:'\f604';}
+.xiv-reaction_emoji_category_05:before{content:'\f605';}
+.xiv-reaction_emoji_category_06:before{content:'\f606';}
+.xiv-reaction_emoji_category_07:before{content:'\f607';}
+.xiv-reaction_emoji_category_08:before{content:'\f608';}
+.xiv-reaction_emoji_category_09:before{content:'\f609';}
+.xiv-reaction_emoji_category_10:before{content:'\f610';}
 
 </style>
 </head>
@@ -492,11 +511,16 @@
 <li><i class="xiv-app_chat_photo"></i>app_chat_photo</li>
 <li><i class="xiv-MessageSend"></i>MessageSend</li>
 <li><i class="xiv-app_chat_stamp"></i>app_chat_stamp</li>
+<li><i class="xiv-app_reaction_template"></i>app_reaction_template</li>
+<li><i class="xiv-app_reaction_emoji_add"></i>app_reaction_emoji_add</li>
+<li><i class="xiv-app_reaction_template_add"></i>app_reaction_template_add</li>
+<li><i class="xiv-app_reaction_list"></i>app_reaction_list</li>
 <li><i class="xiv-ChatReadOk"></i>ChatReadOk</li>
 <li><i class="xiv-ChatMute"></i>ChatMute</li>
 <li><i class="xiv-ChatQuote"></i>ChatQuote</li>
 <li><i class="xiv-ChatReadHidden"></i>ChatReadHidden</li>
 <li><i class="xiv-ChatDeleted"></i>ChatDeleted</li>
+<li><i class="xiv-app_fc_chat_feature2"></i>app_fc_chat_feature2</li>
 <li><i class="xiv-app_fellow"></i>app_fellow</li>
 <li><i class="xiv-app_fellow_search"></i>app_fellow_search</li>
 <li><i class="xiv-app_fellow_detail"></i>app_fellow_detail</li>
@@ -617,6 +641,8 @@
 <li><i class="xiv-class_job_036"></i>class_job_036</li>
 <li><i class="xiv-class_job_037"></i>class_job_037</li>
 <li><i class="xiv-class_job_038"></i>class_job_038</li>
+<li><i class="xiv-class_job_039"></i>class_job_039</li>
+<li><i class="xiv-class_job_040"></i>class_job_040</li>
 <li><i class="xiv-Armoury_MainArm"></i>Armoury_MainArm</li>
 <li><i class="xiv-Armoury_SubArm"></i>Armoury_SubArm</li>
 <li><i class="xiv-Armoury_Head"></i>Armoury_Head</li>
@@ -720,6 +746,7 @@
 <li><i class="xiv-PaintBorderLarge"></i>PaintBorderLarge</li>
 <li><i class="xiv-PaintColorLarge"></i>PaintColorLarge</li>
 <li><i class="xiv-item_signature"></i>item_signature</li>
+<li><i class="xiv-item_stain_condition"></i>item_stain_condition</li>
 <li><i class="xiv-StorageCharacter"></i>StorageCharacter</li>
 <li><i class="xiv-SquareNo01"></i>SquareNo01</li>
 <li><i class="xiv-SquareNo02"></i>SquareNo02</li>
@@ -765,6 +792,17 @@
 <li><i class="xiv-fellow_emote_05"></i>fellow_emote_05</li>
 <li><i class="xiv-fellow_emote_06"></i>fellow_emote_06</li>
 <li><i class="xiv-fellow_emote_07"></i>fellow_emote_07</li>
+<li><i class="xiv-reaction_emoji_category_00"></i>reaction_emoji_category_00</li>
+<li><i class="xiv-reaction_emoji_category_01"></i>reaction_emoji_category_01</li>
+<li><i class="xiv-reaction_emoji_category_02"></i>reaction_emoji_category_02</li>
+<li><i class="xiv-reaction_emoji_category_03"></i>reaction_emoji_category_03</li>
+<li><i class="xiv-reaction_emoji_category_04"></i>reaction_emoji_category_04</li>
+<li><i class="xiv-reaction_emoji_category_05"></i>reaction_emoji_category_05</li>
+<li><i class="xiv-reaction_emoji_category_06"></i>reaction_emoji_category_06</li>
+<li><i class="xiv-reaction_emoji_category_07"></i>reaction_emoji_category_07</li>
+<li><i class="xiv-reaction_emoji_category_08"></i>reaction_emoji_category_08</li>
+<li><i class="xiv-reaction_emoji_category_09"></i>reaction_emoji_category_09</li>
+<li><i class="xiv-reaction_emoji_category_10"></i>reaction_emoji_category_10</li>
 
 </ul>
 
