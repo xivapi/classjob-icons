@@ -82,6 +82,7 @@
 .xiv-ChatQuote:before{content:'\e322';}
 .xiv-ChatReadHidden:before{content:'\e323';}
 .xiv-ChatDeleted:before{content:'\e324';}
+.xiv-app_chat_pinned:before{content:'\e325';}
 .xiv-app_fc_chat_feature2:before{content:'\e341';}
 .xiv-app_fellow:before{content:'\e350';}
 .xiv-app_fellow_search:before{content:'\e351';}
@@ -274,7 +275,7 @@
 .xiv-ItemCategory_RDM:before{content:'\f176';}
 .xiv-ItemCategory_SAM:before{content:'\f177';}
 .xiv-ItemCategory_SCH:before{content:'\f178';}
-.xiv-ItemCategory_BLU:before{content:'\f180';}
+.xiv-item_category_085:before{content:'\f180';}
 .xiv-ItemAll:before{content:'\f200';}
 .xiv-Bag:before{content:'\f201';}
 .xiv-ArmoryChest:before{content:'\f202';}
