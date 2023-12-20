@@ -8,6 +8,7 @@ Included are:
 - `icons/*` a full set of class/job plain icons using the common Silver+Gold styles.
 - `misc/*` Files from the Job Guide
 - `companion/*` icons from the Companion App
+- `risingstones/*` 512px job icons and 64px class icons from the Rising Stones Website by FFXIV Chinese version operator Shengqu Games
 
 ![SpriteSheet](classjobs_sprite.png)
 
