@@ -98,6 +98,7 @@
 .xiv-app_navi_drawer:before{content:'\e201';}
 .xiv-app_navi_paste:before{content:'\e202';}
 .xiv-app_navi_menu_dot:before{content:'\e204';}
+.xiv-app_navi_head:before{content:'\e205';}
 .xiv-NaviSearch:before{content:'\e210';}
 .xiv-NaviInputClear:before{content:'\e211';}
 .xiv-app_drawer_setting:before{content:'\e220';}
@@ -112,6 +113,7 @@
 .xiv-app_view_list:before{content:'\e250';}
 .xiv-app_view_grid:before{content:'\e251';}
 .xiv-ViewDetail:before{content:'\e252';}
+.xiv-app_view_zoom:before{content:'\e253';}
 .xiv-app_drawer_service:before{content:'\e261';}
 .xiv-app_drawer_news:before{content:'\e262';}
 .xiv-app_drawer_guide:before{content:'\e263';}
@@ -186,11 +188,15 @@
 .xiv-FormEdit:before{content:'\e510';}
 .xiv-CopyPaste:before{content:'\e520';}
 .xiv-ItemBuyBack:before{content:'\e601';}
+.xiv-app_item_merge_duplicates:before{content:'\e602';}
 .xiv-Market:before{content:'\e700';}
 .xiv-MarketLimit:before{content:'\e702';}
 .xiv-MarketPurchase:before{content:'\e703';}
 .xiv-app_market_exhibit:before{content:'\e704';}
 .xiv-app_market_notification_alert:before{content:'\e705';}
+.xiv-app_market_filter_acquired:before{content:'\e706';}
+.xiv-app_venture:before{content:'\e750';}
+.xiv-app_venture_target:before{content:'\e751';}
 .xiv-PaymentCoin:before{content:'\e800';}
 .xiv-app_market_purchase:before{content:'\e801';}
 .xiv-app_payment_symbol:before{content:'\e802';}
@@ -204,6 +210,10 @@
 .xiv-app_home_command_ng:before{content:'\e852';}
 .xiv-app_home_command_limit:before{content:'\e853';}
 .xiv-app_home_command_view:before{content:'\e854';}
+.xiv-app_home_custom:before{content:'\e861';}
+.xiv-app_home_setting_style:before{content:'\e862';}
+.xiv-app_home_setting_text:before{content:'\e863';}
+.xiv-app_home_setting_menu:before{content:'\e864';}
 .xiv-SymbolAlert:before{content:'\e900';}
 .xiv-SymbolQuestion:before{content:'\e901';}
 .xiv-SymbolCheck:before{content:'\e902';}
@@ -216,6 +226,7 @@
 .xiv-SquareBoxCheck:before{content:'\e912';}
 .xiv-SquareBoxCross:before{content:'\e913';}
 .xiv-TriangleBoxAlert:before{content:'\e919';}
+.xiv-app_symbol_alert_triangle_outline:before{content:'\e920';}
 .xiv-SquareFrameCheck:before{content:'\e922';}
 .xiv-SymbolInformation:before{content:'\e930';}
 .xiv-app_symbol_info_circle:before{content:'\e931';}
@@ -224,6 +235,9 @@
 .xiv-SymbolMoogle:before{content:'\e952';}
 .xiv-SymbolAlarmClock:before{content:'\e953';}
 .xiv-app_symbol_dc:before{content:'\e956';}
+.xiv-app_symbol_sound_play:before{content:'\e960';}
+.xiv-app_symbol_sound_stop:before{content:'\e961';}
+.xiv-app_symbol_hourglass:before{content:'\e962';}
 .xiv-class_job_001:before{content:'\f001';}
 .xiv-class_job_002:before{content:'\f002';}
 .xiv-class_job_003:before{content:'\f003';}
@@ -264,6 +278,8 @@
 .xiv-class_job_038:before{content:'\f038';}
 .xiv-class_job_039:before{content:'\f039';}
 .xiv-class_job_040:before{content:'\f040';}
+.xiv-class_job_041:before{content:'\f041';}
+.xiv-class_job_042:before{content:'\f042';}
 .xiv-Armoury_MainArm:before{content:'\f081';}
 .xiv-Armoury_SubArm:before{content:'\f082';}
 .xiv-Armoury_Head:before{content:'\f083';}
@@ -479,6 +495,7 @@
 <li><i class="xiv-app_navi_drawer"></i>app_navi_drawer</li>
 <li><i class="xiv-app_navi_paste"></i>app_navi_paste</li>
 <li><i class="xiv-app_navi_menu_dot"></i>app_navi_menu_dot</li>
+<li><i class="xiv-app_navi_head"></i>app_navi_head</li>
 <li><i class="xiv-NaviSearch"></i>NaviSearch</li>
 <li><i class="xiv-NaviInputClear"></i>NaviInputClear</li>
 <li><i class="xiv-app_drawer_setting"></i>app_drawer_setting</li>
@@ -493,6 +510,7 @@
 <li><i class="xiv-app_view_list"></i>app_view_list</li>
 <li><i class="xiv-app_view_grid"></i>app_view_grid</li>
 <li><i class="xiv-ViewDetail"></i>ViewDetail</li>
+<li><i class="xiv-app_view_zoom"></i>app_view_zoom</li>
 <li><i class="xiv-app_drawer_service"></i>app_drawer_service</li>
 <li><i class="xiv-app_drawer_news"></i>app_drawer_news</li>
 <li><i class="xiv-app_drawer_guide"></i>app_drawer_guide</li>
@@ -567,11 +585,15 @@
 <li><i class="xiv-FormEdit"></i>FormEdit</li>
 <li><i class="xiv-CopyPaste"></i>CopyPaste</li>
 <li><i class="xiv-ItemBuyBack"></i>ItemBuyBack</li>
+<li><i class="xiv-app_item_merge_duplicates"></i>app_item_merge_duplicates</li>
 <li><i class="xiv-Market"></i>Market</li>
 <li><i class="xiv-MarketLimit"></i>MarketLimit</li>
 <li><i class="xiv-MarketPurchase"></i>MarketPurchase</li>
 <li><i class="xiv-app_market_exhibit"></i>app_market_exhibit</li>
 <li><i class="xiv-app_market_notification_alert"></i>app_market_notification_alert</li>
+<li><i class="xiv-app_market_filter_acquired"></i>app_market_filter_acquired</li>
+<li><i class="xiv-app_venture"></i>app_venture</li>
+<li><i class="xiv-app_venture_target"></i>app_venture_target</li>
 <li><i class="xiv-PaymentCoin"></i>PaymentCoin</li>
 <li><i class="xiv-app_market_purchase"></i>app_market_purchase</li>
 <li><i class="xiv-app_payment_symbol"></i>app_payment_symbol</li>
@@ -585,6 +607,10 @@
 <li><i class="xiv-app_home_command_ng"></i>app_home_command_ng</li>
 <li><i class="xiv-app_home_command_limit"></i>app_home_command_limit</li>
 <li><i class="xiv-app_home_command_view"></i>app_home_command_view</li>
+<li><i class="xiv-app_home_custom"></i>app_home_custom</li>
+<li><i class="xiv-app_home_setting_style"></i>app_home_setting_style</li>
+<li><i class="xiv-app_home_setting_text"></i>app_home_setting_text</li>
+<li><i class="xiv-app_home_setting_menu"></i>app_home_setting_menu</li>
 <li><i class="xiv-SymbolAlert"></i>SymbolAlert</li>
 <li><i class="xiv-SymbolQuestion"></i>SymbolQuestion</li>
 <li><i class="xiv-SymbolCheck"></i>SymbolCheck</li>
@@ -597,6 +623,7 @@
 <li><i class="xiv-SquareBoxCheck"></i>SquareBoxCheck</li>
 <li><i class="xiv-SquareBoxCross"></i>SquareBoxCross</li>
 <li><i class="xiv-TriangleBoxAlert"></i>TriangleBoxAlert</li>
+<li><i class="xiv-app_symbol_alert_triangle_outline"></i>app_symbol_alert_triangle_outline</li>
 <li><i class="xiv-SquareFrameCheck"></i>SquareFrameCheck</li>
 <li><i class="xiv-SymbolInformation"></i>SymbolInformation</li>
 <li><i class="xiv-app_symbol_info_circle"></i>app_symbol_info_circle</li>
@@ -605,6 +632,9 @@
 <li><i class="xiv-SymbolMoogle"></i>SymbolMoogle</li>
 <li><i class="xiv-SymbolAlarmClock"></i>SymbolAlarmClock</li>
 <li><i class="xiv-app_symbol_dc"></i>app_symbol_dc</li>
+<li><i class="xiv-app_symbol_sound_play"></i>app_symbol_sound_play</li>
+<li><i class="xiv-app_symbol_sound_stop"></i>app_symbol_sound_stop</li>
+<li><i class="xiv-app_symbol_hourglass"></i>app_symbol_hourglass</li>
 <li><i class="xiv-class_job_001"></i>class_job_001</li>
 <li><i class="xiv-class_job_002"></i>class_job_002</li>
 <li><i class="xiv-class_job_003"></i>class_job_003</li>
@@ -645,6 +675,8 @@
 <li><i class="xiv-class_job_038"></i>class_job_038</li>
 <li><i class="xiv-class_job_039"></i>class_job_039</li>
 <li><i class="xiv-class_job_040"></i>class_job_040</li>
+<li><i class="xiv-class_job_041"></i>class_job_041</li>
+<li><i class="xiv-class_job_042"></i>class_job_042</li>
 <li><i class="xiv-Armoury_MainArm"></i>Armoury_MainArm</li>
 <li><i class="xiv-Armoury_SubArm"></i>Armoury_SubArm</li>
 <li><i class="xiv-Armoury_Head"></i>Armoury_Head</li>
