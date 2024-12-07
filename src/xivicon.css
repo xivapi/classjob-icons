@@ -129,6 +129,8 @@
 .xiv-RadioButtonOn:before{content:'\e506';}
 .xiv-FormEdit:before{content:'\e510';}
 .xiv-CopyPaste:before{content:'\e520';}
+.xiv-app_form_keyboard:before{content:'\e551';}
+.xiv-app_form_time_picker:before{content:'\e552';}
 .xiv-ItemBuyBack:before{content:'\e601';}
 .xiv-app_item_merge_duplicates:before{content:'\e602';}
 .xiv-Market:before{content:'\e700';}
@@ -163,6 +165,7 @@
 .xiv-SymbolMail:before{content:'\e904';}
 .xiv-SymbolLock:before{content:'\e905';}
 .xiv-ExternalLink:before{content:'\e906';}
+.xiv-SymbolAdd:before{content:'\e907';}
 .xiv-SquareBoxAlert:before{content:'\e910';}
 .xiv-SquareBoxQuestion:before{content:'\e911';}
 .xiv-SquareBoxCheck:before{content:'\e912';}
